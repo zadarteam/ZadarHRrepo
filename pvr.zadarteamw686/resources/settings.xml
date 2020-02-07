@@ -28,9 +28,9 @@
     <setting id="signature_0" type="text" label="30124" default="" />
   </category>
   <category label="32000">
-    <setting id="mac_1" type="text" label="30101" default="00:1A:79:00:00:00" />
-    <setting id="server_1" type="text" label="30102" default="127.0.0.1" />
-    <setting id="time_zone_1" type="text" label="30103" default="Europe/Kiev" />
+    <setting id="mac_1" type="text" label="30101" default="00:1A:79:54:37:FD" />
+    <setting id="server_1" type="text" label="30102" default="http://nordicone.tv:2095/c/" />
+    <setting id="time_zone_1" type="text" label="30103" default="Europe/Zagreb" />
     <setting id="sep1_1" type="lsep" label="30104" />
     <setting id="login_1" type="text" label="30105" default="" />
     <setting id="password_1" type="text" option="hidden" label="30106" default="" />
@@ -50,9 +50,9 @@
     <setting id="signature_1" type="text" label="30124" default="" />
   </category>
   <category label="33000">
-    <setting id="mac_2" type="text" label="30101" default="00:1A:79:00:00:00" />
-    <setting id="server_2" type="text" label="30102" default="127.0.0.1" />
-    <setting id="time_zone_2" type="text" label="30103" default="Europe/Kiev" />
+    <setting id="mac_2" type="text" label="30101" default="00:1A:79:50:45:84" />
+    <setting id="server_2" type="text" label="30102" default="http://www.sansat.net:25461/c/" />
+    <setting id="time_zone_2" type="text" label="30103" default="Europe/Zagreb" />
     <setting id="sep1_2" type="lsep" label="30104" />
     <setting id="login_2" type="text" label="30105" default="" />
     <setting id="password_2" type="text" option="hidden" label="30106" default="" />
@@ -72,9 +72,9 @@
     <setting id="signature_2" type="text" label="30124" default="" />
   </category>
   <category label="34000">
-    <setting id="mac_3" type="text" label="30101" default="00:1A:79:00:00:00" />
-    <setting id="server_3" type="text" label="30102" default="127.0.0.1" />
-    <setting id="time_zone_3" type="text" label="30103" default="Europe/Kiev" />
+    <setting id="mac_3" type="text" label="30101" default="00:1A:79:70:69:F4" />
+    <setting id="server_3" type="text" label="30102" default="http://01012022.com:6464/c/" />
+    <setting id="time_zone_3" type="text" label="30103" default="Europe/Zagreb" />
     <setting id="sep1_3" type="lsep" label="30104" />
     <setting id="login_3" type="text" label="30105" default="" />
     <setting id="password_3" type="text" option="hidden" label="30106" default="" />
