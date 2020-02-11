@@ -72,8 +72,8 @@
     <setting id="signature_2" type="text" label="30124" default="" />
   </category>
   <category label="34000">
-    <setting id="mac_3" style="visibility:hidden" label="30101" default="00:1A:79:70:69:F4" />
-    <setting id="server_3" type="text" label="30102" default="http://01012022.com:6464/c/" />
+    <setting id="mac_3" style="visibility:hidden" label="30101" default="00:1A:79:52:17:61" />
+    <setting id="server_3" type="text" label="30102" default="http://tv.iptvpanel.tv:8080/c/" />
     <setting id="time_zone_3" type="text" label="30103" default="Europe/Zagreb" />
     <setting id="sep1_3" type="lsep" label="30104" />
     <setting id="login_3" type="text" label="30105" default="" />
