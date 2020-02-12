@@ -1255,7 +1255,7 @@
 
 <addon
   id="pvr.zadarteam"
-  version="0.0.6"
+  version="0.0.7"
   name="ZadarTeam Client"
   provider-name="Zadar Team">
   <requires>
@@ -1419,7 +1419,7 @@
 
 <addon
   id="pvr.zadarteama"
-  version="0.0.6"
+  version="0.0.7"
   name="ZadarTeam Client"
   provider-name="Zadar Team">
   <requires>
@@ -1583,7 +1583,7 @@
 
 <addon
   id="pvr.zadarteama64"
-  version="0.0.6"
+  version="0.0.7"
   name="ZadarTeam Client"
   provider-name="Zadar Team">
   <requires>
@@ -1747,7 +1747,7 @@
 
 <addon
   id="pvr.zadarteamw686"
-  version="0.0.6"
+  version="0.0.7"
   name="ZadarTeam Client"
   provider-name="Zadar Team">
   <requires>
