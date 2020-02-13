@@ -18,7 +18,7 @@
     <setting id="guide_cache_hours_0" type="number" label="30114" default="24" />
     <setting id="sep3_0" type="lsep" label="30115" />
     <setting id="xmltv_scope_0" type="enum" label="30116" lvalues="30117|30118" default="0" />
-    <setting id="xmltv_url_0" type="text" option="hidden" label="30117" default="http://epg.balkan-soft.com/epg.xml.gz" visible="eq(-1,0)" />
+    <setting id="xmltv_url_0" type="text" option="hidden" label="30117" default="" visible="eq(-1,0)" />
     <setting id="xmltv_path_0" type="file" label="30118" default="" visible="eq(-2,1)" />
     <setting id="sep4_0" type="lsep" label="30119" />
     <setting id="token_0" type="text" label="30120" default="" />
@@ -40,7 +40,7 @@
     <setting id="guide_cache_hours_1" type="number" label="30114" default="24" />
     <setting id="sep3_1" type="lsep" label="30115" />
     <setting id="xmltv_scope_1" type="enum" label="30116" lvalues="30117|30118" default="0" />
-    <setting id="xmltv_url_1" type="text" label="30117" default="" visible="eq(-1,0)" />
+    <setting id="xmltv_url_1" type="text" option="hidden" label="30117" default="http://epg.balkan-soft.com/epg.xml.gz" visible="eq(-1,0)" />
     <setting id="xmltv_path_1" type="file" label="30118" default="" visible="eq(-2,1)" />
     <setting id="sep4_1" type="lsep" label="30119" />
     <setting id="token_1" type="text" label="30120" default="" />
@@ -62,7 +62,7 @@
     <setting id="guide_cache_hours_2" type="number" label="30114" default="24" />
     <setting id="sep3_2" type="lsep" label="30115" />
     <setting id="xmltv_scope_2" type="enum" label="30116" lvalues="30117|30118" default="0" />
-    <setting id="xmltv_url_2" type="text" label="30117" default="" visible="eq(-1,0)" />
+    <setting id="xmltv_url_2" type="text" option="hidden" label="30117" default="" visible="eq(-1,0)" />
     <setting id="xmltv_path_2" type="file" label="30118" default="" visible="eq(-2,1)" />
     <setting id="sep4_2" type="lsep" label="30119" />
     <setting id="token_2" type="text" label="30120" default="" />
@@ -84,7 +84,7 @@
     <setting id="guide_cache_hours_3" type="number" label="30114" default="24" />
     <setting id="sep3_3" type="lsep" label="30115" />
     <setting id="xmltv_scope_3" type="enum" label="30116" lvalues="30117|30118" default="0" />
-    <setting id="xmltv_url_3" type="text" label="30117" default="" visible="eq(-1,0)" />
+    <setting id="xmltv_url_3" type="text" option="hidden" label="30117" default="" visible="eq(-1,0)" />
     <setting id="xmltv_path_3" type="file" label="30118" default="" visible="eq(-2,1)" />
     <setting id="sep4_3" type="lsep" label="30119" />
     <setting id="token_3" type="text" label="30120" default="" />
@@ -106,7 +106,7 @@
     <setting id="guide_cache_hours_4" type="number" label="30114" default="24" />
     <setting id="sep3_4" type="lsep" label="30115" />
     <setting id="xmltv_scope_4" type="enum" label="30116" lvalues="30117|30118" default="0" />
-    <setting id="xmltv_url_4" type="text" label="30117" default="" visible="eq(-1,0)" />
+    <setting id="xmltv_url_4" type="text" option="hidden" label="30117" default="" visible="eq(-1,0)" />
     <setting id="xmltv_path_4" type="file" label="30118" default="" visible="eq(-2,1)" />
     <setting id="sep4_4" type="lsep" label="30119" />
     <setting id="token_4" type="text" label="30120" default="" />
