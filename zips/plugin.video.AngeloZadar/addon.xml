@@ -4,7 +4,7 @@
 				
 <addon 
 		id="plugin.video.AngeloZadar" 
-		name="[COLOR=lime]Angelo[/COLOR] [COLOR white]Zadar[/COLOR]" 
+		name="[COLOR=purple]Angelo[/COLOR] [COLOR white]Zadar[/COLOR]" 
 		version="1.0.0" 
 		provider-name="AaNnGgEeL">
 	  <requires>

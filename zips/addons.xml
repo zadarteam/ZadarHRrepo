@@ -1003,7 +1003,7 @@
 
 <addon
 		id="plugin.video.AngeloZadar"
-		name="[COLOR=lime]Angelo[/COLOR] [COLOR white]Zadar[/COLOR]"
+		name="[COLOR=purple]Angelo[/COLOR] [COLOR white]Zadar[/COLOR]"
 		version="1.0.0"
 		provider-name="AaNnGgEeL">
 	  <requires>
@@ -2156,7 +2156,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="repository.ZadarHRrepo" name=".[COLOR blue]ZadarHR[/COLOR] repo" version="1.3.8.4" provider-name="ZadarTeam">
+<addon id="repository.ZadarHRrepo" name=".[COLOR blue]ZadarHR[/COLOR] repo" version="1.3.8.5" provider-name="ZadarTeam">
 	<extension point="xbmc.addon.repository" name="ZadarHRrepo">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
