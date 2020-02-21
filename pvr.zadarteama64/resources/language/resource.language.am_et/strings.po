@@ -127,3 +127,15 @@ msgstr "መግቢያ 4"
 msgctxt "#35000"
 msgid "Portal 5"
 msgstr "መግቢያ 5"
+
+msgctxt "#36000"
+msgid "Portal 6"
+msgstr "መግቢያ 6"
+
+msgctxt "#37000"
+msgid "Portal 7"
+msgstr "መግቢያ 7"
+
+msgctxt "#38000"
+msgid "Portal 8"
+msgstr "መግቢያ 8"

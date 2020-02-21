@@ -187,3 +187,15 @@ msgstr "入口 4"
 msgctxt "#35000"
 msgid "Portal 5"
 msgstr "入口 5"
+
+msgctxt "#36000"
+msgid "Portal 6"
+msgstr "入口 6"
+
+msgctxt "#37000"
+msgid "Portal 7"
+msgstr "入口 7"
+
+msgctxt "#38000"
+msgid "Portal 8"
+msgstr "入口 8"
