@@ -1,2 +1,0 @@
-Verzija 1.0.0
-- Pocetna verzija
