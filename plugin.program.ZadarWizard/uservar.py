@@ -103,9 +103,9 @@ AUTOINSTALL    = 'No'
 # Addon ID for the repository
 REPOID         = 'repository.ZadarHRrepo'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
-REPOADDONXML   = 'https://raw.githubusercontent.com/kodimatija/ZadarHRrepo/master/zips/addons.xml'
+REPOADDONXML   = 'https://raw.githubusercontent.com/zadarteam/ZadarHRrepo/master/zips/addons.xml'
 # Url to folder zip is located in
-REPOZIPURL     = 'https://raw.githubusercontent.com/kodimatija/ZadarHRrepo/master/zips/repository.ZadarHRrepo'
+REPOZIPURL     = 'https://raw.githubusercontent.com/zadarteam/ZadarHRrepo/master/zips/repository.ZadarHRrepo'
 #########################################################
 
 #########################################################

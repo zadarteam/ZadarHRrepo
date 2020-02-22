@@ -828,7 +828,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.ZadarWizard" name="Zadar Wizard" version="1.0.1" provider-name="ZadarTeam">
+<addon id="plugin.program.ZadarWizard" name="Zadar Wizard" version="1.0.2" provider-name="ZadarTeam">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -840,7 +840,7 @@
     <summary lang="en">Zadar Wizard</summary>
     <description lang="en">Zadar Wizard Buldovi od autora Zadar Team. Novi wizard prilagoden za sve verzije.</description>
 	<disclaimer lang="en"></disclaimer>
-	<news>v1.0.1 (2019-02-25)</news>
+	<news>v1.0.2 (2020-02-22)</news>
 	<platform>all</platform>
 	<language>en</language>
 	<license>GNU GENERAL PUBLIC LICENSE Version 3</license>
@@ -2190,7 +2190,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="repository.ZadarHRrepo" name=".[COLOR blue]ZadarHR[/COLOR] repo" version="1.3.9.2" provider-name="ZadarTeam">
+<addon id="repository.ZadarHRrepo" name=".[COLOR blue]ZadarHR[/COLOR] repo" version="1.3.9.3" provider-name="ZadarTeam">
 	<extension point="xbmc.addon.repository" name="ZadarHRrepo">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
