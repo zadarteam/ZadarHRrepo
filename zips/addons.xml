@@ -1039,6 +1039,27 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.docula" name="Docula" version="1.6.4zd" provider-name="J1">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.universalscrapers" version="1.0.0" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Documentaries</summary>
+		<description lang="en">Documentaries of All Genres - Template by Uncle Touchy - Adapted for your pleasure by J1</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+		<platform>all</platform>
+		<news></news>
+		<genre>All</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+
 <addon id="plugin.video.exodus" version="8.4.7" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -1180,19 +1201,19 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.spotitube" name="Youtube Music" version="2.1.5" provider-name="realvito (inspired by L0RE)">
+<addon id="plugin.video.spotitube" name="Youtube Music" version="2.1.6" provider-name="realvito (inspired by L0RE)">
 	<requires>
-		<import addon="xbmc.python" version="2.24.0"/>
-		<import addon="plugin.video.youtube" version="6.1.0"/>
+		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="plugin.video.youtube" version="6.3.0"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video audio</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="de_DE">Musik über Youtube abspielen</summary>
-		<summary lang="en_GB">Play Music via Youtube</summary>
-		<description lang="de_DE">Musik aus verschiedenen Quellen z.B. Billboard, iTunes, Spotify etc. auswählen und über Youtube abspielen.[CR][CR]Für mehr Informationen zu allen Neuerungen siehe - CHANGELOG.[CR]     TEST IT AND LIKE IT</description>
-		<description lang="en_GB">Choose Music from different sources e.g. Billboard, iTunes, Spotify etc. and play it via Youtube.[CR][CR]For more information about all new features see - CHANGELOG.[CR]     TEST IT AND LIKE IT</description>
+		<summary lang="de_DE">YouTube Musicplayer</summary>
+		<summary lang="en_GB">YouTube Musicplayer</summary>
+		<description lang="de_DE">Musik aus verschiedenen Quellen z.B. Beatport, Billboard, iTunes, Officialcharts etc. auswählen und über YouTube abspielen.[CR][CR]Für mehr Informationen zu allen Neuerungen siehe - CHANGELOG.[CR]     TEST IT AND LIKE IT</description>
+		<description lang="en_GB">Choose Music from different sources e.g. Beatport, Billboard, iTunes, Officialcharts etc. and play it via YouTube.[CR][CR]For more information about all new features see - CHANGELOG.[CR]     TEST IT AND LIKE IT</description>
 		<disclaimer lang="de_DE">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Anbietern des Inhalts.</disclaimer>
 		<disclaimer lang="en_GB">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
 		<language></language>
@@ -1206,10 +1227,8 @@
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-		<news>[B][COLOR orangered]Version 2.1.5  (17.11.2019)[/COLOR][/B] by realvito[CR]
-- fixed: Billboard - Hot 100 and Billboard 200 are not opened and error is displayed
-- fixed: Itunes-Videos are empty
-- removed: Billboard ARCHIVE because the Musiclists don't exists anymore
+		<news>[B][COLOR orangered]Version 2.1.6  (25.02.2020)[/COLOR][/B] by realvito[CR]
+- added and fixed: Set your personal-API-KEY (AIza*****) for YouTube in settings to search and play Musicvideos (otherwise the Addon fails)
 		</news>
 	</extension>
 </addon>

@@ -136,3 +136,6 @@
 - fixed: Billboard - Hot 100 and Billboard 200 are not opened and error is displayed
 - fixed: Itunes-Videos are empty
 - removed: Billboard ARCHIVE because the Musiclists don't exists anymore
+
+[B]Version 2.1.6  (25.02.2020)[/B] by realvito
+- added and fixed: Set your personal-API-KEY (AIza*****) for YouTube in settings to search and play Musicvideos (otherwise the Addon fails)
