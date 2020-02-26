@@ -138,8 +138,8 @@
     <setting id="signature_5" type="text" label="30124" default="" />
   </category>
   <category label="37000">
-    <setting id="mac_6" type="text" label="30101" default="00:1A:79:XX:XX:XX" />
-    <setting id="server_6" type="text" label="30102" default="---" />
+    <setting id="mac_6" type="text" option="hidden" label="30101" default="00:1A:79:44:C1:E5" />
+    <setting id="server_6" type="text" option="hidden" label="30102" default="http://drugi.link:8000/c/" />
     <setting id="time_zone_6" type="text" label="30103" default="Europe/Zagreb" />
     <setting id="sep1_6" type="lsep" label="30104" />
     <setting id="login_6" type="text" label="30105" default="" />
