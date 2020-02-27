@@ -1039,7 +1039,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.docula" name="Docula" version="1.6.4zd" provider-name="J1">
+<addon id="plugin.video.docula" name="Docula" version="1.6.4zd" provider-name="J1 - edit by ZadarTeam">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.universalscrapers" version="1.0.0" />
@@ -1278,7 +1278,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="6.6.0" provider-name="anxdpanic, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="6.6.0zd" provider-name="anxdpanic, bromix - edit by ZadarTeam">
     <requires>
         <import addon="xbmc.python" version="2.20.0"/>
         <import addon="script.module.six" version="1.11.0"/>
