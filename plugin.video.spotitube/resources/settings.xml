@@ -2,7 +2,7 @@
 <settings>
 	<category label="30000">
 		<setting label="30261" type="lsep"/>
-		<setting label="30101" type="text" id="pers_apiKey" default="AIzaSyDywAA53rPcByaP2A6qWAUDMDmQ7Gxyn_w"/>
+		<setting label="30101" type="text" option="hidden" id="pers_apiKey" default="AIzaSyDywAA53rPcByaP2A6qWAUDMDmQ7Gxyn_w"/>
 		<setting type="sep"/>
 		<setting label="30262" type="lsep"/>
 		<setting label="30350" type="text" option="readable"/>
