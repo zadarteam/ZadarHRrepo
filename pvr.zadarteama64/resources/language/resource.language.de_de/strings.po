@@ -198,4 +198,4 @@ msgstr "Zugang 7"
 
 msgctxt "#38000"
 msgid "Portal 8"
-msgstr "Zugang 5"
+msgstr "Zugang 8"
