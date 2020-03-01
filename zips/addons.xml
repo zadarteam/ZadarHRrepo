@@ -953,20 +953,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.adrianatv" name="[B][I][COLOR orangered]Adriana TV[/COLOR][/I][/B]" version="1.2" provider-name="Zadar Build">
-    <requires>
-    </requires>
-    <extension point="xbmc.python.pluginsource"
-               library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary>Adriana TV</summary>
-        <description>Adriana TV je KODI Addon za gledanje live TV programa. Autor ovog addona (programskog dodatka) nema nikakav autorski materijal unutar ovog addona. Koristi linkove koji su dostupni na internetu, te ne snosi nikakvu odgovornost za njegovu upotrebu.</description>
-    </extension>
-</addon>
-
 
 				<!--// Adriana XXX Free Tv List Addon Hrvatski\\-->
 
