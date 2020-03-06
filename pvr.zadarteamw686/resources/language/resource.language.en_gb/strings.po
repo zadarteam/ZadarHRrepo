@@ -231,5 +231,5 @@ msgstr ""
 #empty strings from id 39001 to 39999
 
 msgctxt "#40000"
-msgid "My portal 10"
-msgstr ""
+msgid "Portal 10"
+msgstr "My portal 10"
