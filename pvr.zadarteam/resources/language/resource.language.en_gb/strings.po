@@ -221,3 +221,15 @@ msgstr ""
 msgctxt "#38000"
 msgid "Portal 8"
 msgstr ""
+
+#empty strings from id 38001 to 38999
+
+msgctxt "#39000"
+msgid "Portal 9"
+msgstr ""
+
+#empty strings from id 39001 to 39999
+
+msgctxt "#40000"
+msgid "My portal 10"
+msgstr ""

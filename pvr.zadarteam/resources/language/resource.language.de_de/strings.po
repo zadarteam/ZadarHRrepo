@@ -199,3 +199,11 @@ msgstr "Zugang 7"
 msgctxt "#38000"
 msgid "Portal 8"
 msgstr "Zugang 8"
+
+msgctxt "#39000"
+msgid "Portal 9"
+msgstr "Zugang 9"
+
+msgctxt "#40000"
+msgid "Portal 10"
+msgstr "Mein Zugang 10"

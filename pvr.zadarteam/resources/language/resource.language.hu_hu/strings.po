@@ -199,3 +199,11 @@ msgstr "Portál 7"
 msgctxt "#38000"
 msgid "Portal 8"
 msgstr "Portál 8"
+
+msgctxt "#39000"
+msgid "Portal 9"
+msgstr "Portál 9"
+
+msgctxt "#40000"
+msgid "Portal 10"
+msgstr "Saját portálom 10"
