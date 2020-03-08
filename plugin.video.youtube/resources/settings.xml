@@ -98,6 +98,10 @@
         <setting type="sep" />
         <setting id="kodion.playback.history" type="bool" label="30675" default="false"/>
         <setting type="sep" />
+        <setting id="kodion.view.override" type="bool" label="30026" default="false"/>
+        <setting id="kodion.view.default" type="number" label="30027" enable="eq(-1,true)" default="50"/>
+        <setting id="kodion.view.episodes" type="number" label="30028" enable="eq(-2,true)" default="50"/>
+        <setting type="sep" />
         <setting id="kodion.cache.size" type="slider" label="30024" default="10" range="5,1,100" option="int"/>
         <setting id="kodion.setup_wizard" type="bool" label="30025" default="true"/>
         <setting type="sep" />
@@ -118,11 +122,9 @@
 
     <!-- personal api key -->
     <category label="30200">
-        <setting id="youtube.api.enable" type="bool" label="30204" default="true"/>
-        <setting id="youtube.api.key" type="text" option="hidden" label="30201" default="AIzaSyDywAA53rPcByaP2A6qWAUDMDmQ7Gxyn_w" visible="eq(-1,true)"/>
-        <setting id="youtube.api.id" type="text" label="30202" default="youtube-zadarteam" visible="eq(-2,true)"/>
-        <setting id="youtube.api.secret" type="text" option="hidden" label="30203" default="AIzaSyDywAA53rPcByaP2A6qWAUDMDmQ7Gxyn_w" visible="eq(-3,true)"/>
-        <setting id="youtube.api.key.switch" type="enum" label="30205" values="0|1|2|3|4|5" visible="eq(-4,false)" default="1"/>
+        <setting id="youtube.api.key" type="text" option="hidden" label="30201" default="AIzaSyDywAA53rPcByaP2A6qWAUDMDmQ7Gxyn_w"/>
+        <setting id="youtube.api.id" type="text" label="30202" default="youtube-zadarteam"/>
+        <setting id="youtube.api.secret" type="text" option="hidden" label="30203" default="AIzaSyDywAA53rPcByaP2A6qWAUDMDmQ7Gxyn_w"/>
         <setting id="youtube.allow.dev.keys" type="bool" label="30608" default="true"/>
         <setting id="youtube.api.config.address" type="lsep" label="30633" visible="eq(1,true)"/>
         <setting id="youtube.api.config.page" type="bool" label="30632" default="false"/>

@@ -1146,7 +1146,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.spotitube" name="Youtube Music" version="2.1.6zd" provider-name="realvito (inspired by L0RE) - edit by ZadarTeam">
+<addon id="plugin.video.spotitube" name="Youtube Music" version="2.1.7zd" provider-name="realvito (inspired by L0RE) & ZadarTeam">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 		<import addon="plugin.video.youtube" version="6.3.0"/>
@@ -1172,8 +1172,9 @@
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-		<news>[B][COLOR orangered]Version 2.1.6  (25.02.2020)[/COLOR][/B] by realvito[CR]
-- added and fixed: Set your personal-API-KEY (AIza*****) for YouTube in settings to search and play Musicvideos (otherwise the Addon fails)
+		<news>[B][COLOR orangered]Version 2.1.7zd  (28.02.2020)[/COLOR][/B] by realvito & ZadarTeam[CR]
+- fixed: long wait time for playback
+- fixed: error for playback of playlists
 		</news>
 	</extension>
 </addon>
@@ -1223,7 +1224,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="6.6.0zd" provider-name="anxdpanic, bromix - edit by ZadarTeam">
+<addon id="plugin.video.youtube" name="YouTube" version="6.7.0~beta1zd" provider-name="anxdpanic, bromix & ZadarTeam">
     <requires>
         <import addon="xbmc.python" version="2.20.0"/>
         <import addon="script.module.six" version="1.11.0"/>
@@ -1237,20 +1238,14 @@
     <extension point="xbmc.python.module" library="resources/lib/"/>
     <extension point="xbmc.addon.metadata">
         <news>
-[add] 'Play (Ask for quality)' context menu
-[add] search by channel or playlist id
-[add] hide_folders, hide_playlists, hide_search, and hide_live to /channel/&lt;channel_id&gt;/ end-point
-    - ie. plugin://plugin.video.youtube/channel/UC4PooiX37Pld1T8J5SYT-SQ/?hide_folders=true will hide all folders(Playlists, Search, and Live) in the channel listing
-[fix] playback for some videos (ie. music videos)
-[fix] playback of some videos with no adaptive video streams
-[fix] don't update watch history when incognito/screensaver/live |contrib: regseb|
-[fix] search prompting for input after video playback or refresh
-[lang] el_gr strings |contrib: twilight0|
-[lang] es_es strings |contrib: roliverosc|
-[lang] pt_br strings |contrib: MediaBrasil|
-[lang] cs_cz strings |contrib: llzn.cz|
-[lang] it_it strings |contrib: SebastianoPistore|
-[lang] de_de strings |contrib: tweimer|
+[add] send PlaybackInit, PlaybackStarted, PlaybackStopped notifications containing video id, channel id, and the status of the playing video
+[fix] allow playback regardless of API status
+    - fixes playback for strm, playlists, other add-ons, and sharing videos from devices
+[fix] fix possible loop due to invalid keys and login information
+[fix] fix playback of mpeg-dash streams if HTTP Server - Listen on IP is blank
+[upd] use a dialog to notify users of API key requirements with link to wiki
+    - https://ytaddon.page.link/keys
+[rem] remove provided api keys
         </news>
         <assets>
             <icon>icon.png</icon>
@@ -1307,6 +1302,7 @@
         <reuselanguageinvoker>true</reuselanguageinvoker>
     </extension>
 </addon>
+<!-- unofficial -->
 
 <addon
   id="pvr.zadarteam"

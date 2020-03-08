@@ -139,3 +139,7 @@
 
 [B]Version 2.1.6  (25.02.2020)[/B] by realvito
 - added and fixed: Set your personal-API-KEY (AIza*****) for YouTube in settings to search and play Musicvideos (otherwise the Addon fails)
+
+[B]Version 2.1.7  (28.02.2020)[/B] by realvito & ZadarTeam
+- fixed: long wait time for playback
+- fixed: error for playback of playlists

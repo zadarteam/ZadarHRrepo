@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<addon id="plugin.video.spotitube" name="Youtube Music" version="2.1.6zd" provider-name="realvito (inspired by L0RE) - edit by ZadarTeam">
+<addon id="plugin.video.spotitube" name="Youtube Music" version="2.1.7zd" provider-name="realvito (inspired by L0RE) & ZadarTeam">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 		<import addon="plugin.video.youtube" version="6.3.0"/>
@@ -25,8 +25,9 @@
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-		<news>[B][COLOR orangered]Version 2.1.6  (25.02.2020)[/COLOR][/B] by realvito[CR]
-- added and fixed: Set your personal-API-KEY (AIza*****) for YouTube in settings to search and play Musicvideos (otherwise the Addon fails)
+		<news>[B][COLOR orangered]Version 2.1.7zd  (28.02.2020)[/COLOR][/B] by realvito & ZadarTeam[CR]
+- fixed: long wait time for playback
+- fixed: error for playback of playlists
 		</news>
 	</extension>
 </addon>
