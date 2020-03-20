@@ -6,8 +6,8 @@
     <setting id="connection_timeout" type="enum" label="30003" values="0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100|105|110|115|120" default="1" />
   </category>
   <category label="31000">
-    <setting id="mac_0" type="text" option="hidden" label="30101" default="00:1A:79:01:5E:28" />
-    <setting id="server_0" type="text" option="hidden" label="30102" default="http://portal.geniptv.com:8080/c/" />
+    <setting id="mac_0" type="text" option="hidden" label="30101" default="00:1A:79:4C:A2:6D" />
+    <setting id="server_0" type="text" option="hidden" label="30102" default="http://sansat.net:25461/c/" />
     <setting id="time_zone_0" type="text" label="30103" default="Europe/Zagreb" />
     <setting id="sep1_0" type="lsep" label="30104" />
     <setting id="login_0" type="text" label="30105" default="" />
@@ -116,8 +116,8 @@
     <setting id="signature_4" type="text" label="30124" default="" />
   </category>
   <category label="36000">
-    <setting id="mac_5" type="text" option="hidden" label="30101" default="00:1A:79:03:2F:F6" />
-    <setting id="server_5" type="text" option="hidden" label="30102" default="http://7639o61.xcvsdfwerzxas.xyz:6464/c/" />
+    <setting id="mac_5" type="text" option="hidden" label="30101" default="00:1A:79:00:21:72" />
+    <setting id="server_5" type="text" option="hidden" label="30102" default="http://sansatplus.net:25461/c/" />
     <setting id="time_zone_5" type="text" label="30103" default="Europe/Zagreb" />
     <setting id="sep1_5" type="lsep" label="30104" />
     <setting id="login_5" type="text" label="30105" default="" />
