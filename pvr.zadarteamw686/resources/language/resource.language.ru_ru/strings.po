@@ -206,4 +206,12 @@ msgstr "Портал 9"
 
 msgctxt "#40000"
 msgid "Portal 10"
-msgstr "Мой портал 10"
+msgstr "Портал 10"
+
+msgctxt "#41000"
+msgid "Portal 11"
+msgstr "Портал 11"
+
+msgctxt "#42000"
+msgid "Portal 12"
+msgstr "Мой портал 12"

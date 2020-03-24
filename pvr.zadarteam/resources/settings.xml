@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
   <category label="30000">
-    <setting id="active_portal" type="enum" label="30001" values="1|2|3|4|5|6|7|8|9|10" default="0" />
+    <setting id="active_portal" type="enum" label="30001" values="1|2|3|4|5|6|7|8|9|10|11|12" default="0" />
     <setting id="sep1" type="lsep" label="30002" />
     <setting id="connection_timeout" type="enum" label="30003" values="0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100|105|110|115|120" default="1" />
   </category>
   <category label="31000">
-    <setting id="mac_0" type="text" option="hidden" label="30101" default="00:1A:79:3D:72:0C" />
-    <setting id="server_0" type="text" option="hidden" label="30102" default="http://ip.bosszx.net/c/" />
+    <setting id="mac_0" type="text" option="hidden" label="30101" default="00:1A:79:33:7F:AB" />
+    <setting id="server_0" type="text" option="hidden" label="30102" default="http://mag.tvbalkanserver.info/stalker_portal/c/" />
     <setting id="time_zone_0" type="text" label="30103" default="Europe/Zagreb" />
     <setting id="sep1_0" type="lsep" label="30104" />
     <setting id="login_0" type="text" label="30105" default="" />
@@ -28,7 +28,7 @@
     <setting id="signature_0" type="text" label="30124" default="" />
   </category>
   <category label="32000">
-    <setting id="mac_1" type="text" option="hidden" label="30101" default="00:1A:79:31:DB:D4" />
+    <setting id="mac_1" type="text" option="hidden" label="30101" default="00:1A:79:AE:5D:B4" />
     <setting id="server_1" type="text" option="hidden" label="30102" default="http://restream.geniptv.com:8080/c/" />
     <setting id="time_zone_1" type="text" label="30103" default="Europe/Zagreb" />
     <setting id="sep1_1" type="lsep" label="30104" />
@@ -181,7 +181,7 @@
     <setting id="device_id2_7" type="text" label="30123" default="" />
     <setting id="signature_7" type="text" label="30124" default="" />
   </category>
-    <category label="39000">
+  <category label="39000">
     <setting id="mac_8" type="text" option="hidden" label="30101" default="00:1A:79:05:72:47" />
     <setting id="server_8" type="text" option="hidden" label="30102" default="http://4kiptv.vip:25461/c/" />
     <setting id="time_zone_8" type="text" label="30103" default="Europe/Zagreb" />
@@ -203,9 +203,9 @@
     <setting id="device_id2_8" type="text" label="30123" default="" />
     <setting id="signature_8" type="text" label="30124" default="" />
   </category>
-      <category label="40000">
-    <setting id="mac_9" type="text" label="30101" default="00:1A:79:--:--:--" />
-    <setting id="server_9" type="text" label="30102" default="http://----" />
+  <category label="40000">
+    <setting id="mac_9" type="text" option="hidden" label="30101" default="00:1A:79:65:60:84" />
+    <setting id="server_9" type="text" option="hidden" label="30102" default="http://king-box.club:80/c/" />
     <setting id="time_zone_9" type="text" label="30103" default="Europe/Zagreb" />
     <setting id="sep1_9" type="lsep" label="30104" />
     <setting id="login_9" type="text" label="30105" default="" />
@@ -216,7 +216,7 @@
     <setting id="guide_cache_hours_9" type="number" label="30114" default="24" />
     <setting id="sep3_9" type="lsep" label="30115" />
     <setting id="xmltv_scope_9" type="enum" label="30116" lvalues="30117|30118" default="0" />
-    <setting id="xmltv_url_9" type="text" label="30117" default="" visible="eq(-1,0)" />
+    <setting id="xmltv_url_9" type="text" option="hidden" label="30117" default="" visible="eq(-1,0)" />
     <setting id="xmltv_path_9" type="file" label="30118" default="" visible="eq(-2,1)" />
     <setting id="sep4_9" type="lsep" label="30119" />
     <setting id="token_9" type="text" label="30120" default="" />
@@ -224,5 +224,49 @@
     <setting id="device_id_9" type="text" label="30122" default="" />
     <setting id="device_id2_9" type="text" label="30123" default="" />
     <setting id="signature_9" type="text" label="30124" default="" />
+  </category>
+  <category label="41000">
+    <setting id="mac_10" type="text" option="hidden" label="30101" default="00:1A:79:A1:F5:80" />
+    <setting id="server_10" type="text" option="hidden" label="30102" default="http://tv.iptvpanel.tv:8080/c/" />
+    <setting id="time_zone_10" type="text" label="30103" default="Europe/Zagreb" />
+    <setting id="sep1_10" type="lsep" label="30104" />
+    <setting id="login_10" type="text" label="30105" default="" />
+    <setting id="password_10" type="text" option="hidden" label="30106" default="" />
+    <setting id="sep2_10" type="lsep" label="30107" />
+    <setting id="guide_preference_10" type="enum" label="30108" lvalues="30109|30110|30111|30112" default="0" />
+    <setting id="guide_cache_10" type="bool" label="30113" default="true" />
+    <setting id="guide_cache_hours_10" type="number" label="30114" default="24" />
+    <setting id="sep3_10" type="lsep" label="30115" />
+    <setting id="xmltv_scope_10" type="enum" label="30116" lvalues="30117|30118" default="0" />
+    <setting id="xmltv_url_10" type="text" option="hidden" label="30117" default="" visible="eq(-1,0)" />
+    <setting id="xmltv_path_10" type="file" label="30118" default="" visible="eq(-2,1)" />
+    <setting id="sep4_10" type="lsep" label="30119" />
+    <setting id="token_10" type="text" label="30120" default="" />
+    <setting id="serial_number_10" type="text" label="30121" default="" />
+    <setting id="device_id_10" type="text" label="30122" default="" />
+    <setting id="device_id2_10" type="text" label="30123" default="" />
+    <setting id="signature_10" type="text" label="30124" default="" />
+  </category>
+  <category label="42000">
+    <setting id="mac_11" type="text" label="30101" default="00:1A:79:--:--:--" />
+    <setting id="server_11" type="text" label="30102" default="http://----" />
+    <setting id="time_zone_11" type="text" label="30103" default="Europe/Zagreb" />
+    <setting id="sep1_11" type="lsep" label="30104" />
+    <setting id="login_11" type="text" label="30105" default="" />
+    <setting id="password_11" type="text" option="hidden" label="30106" default="" />
+    <setting id="sep2_11" type="lsep" label="30107" />
+    <setting id="guide_preference_11" type="enum" label="30108" lvalues="30109|30110|30111|30112" default="0" />
+    <setting id="guide_cache_11" type="bool" label="30113" default="true" />
+    <setting id="guide_cache_hours_11" type="number" label="30114" default="24" />
+    <setting id="sep3_11" type="lsep" label="30115" />
+    <setting id="xmltv_scope_11" type="enum" label="30116" lvalues="30117|30118" default="0" />
+    <setting id="xmltv_url_11" type="text" label="30117" default="" visible="eq(-1,0)" />
+    <setting id="xmltv_path_11" type="file" label="30118" default="" visible="eq(-2,1)" />
+    <setting id="sep4_11" type="lsep" label="30119" />
+    <setting id="token_11" type="text" label="30120" default="" />
+    <setting id="serial_number_11" type="text" label="30121" default="" />
+    <setting id="device_id_11" type="text" label="30122" default="" />
+    <setting id="device_id2_11" type="text" label="30123" default="" />
+    <setting id="signature_11" type="text" label="30124" default="" />
   </category>
 </settings>

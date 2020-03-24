@@ -206,4 +206,12 @@ msgstr "Portal 9"
 
 msgctxt "#40000"
 msgid "Portal 10"
-msgstr "Moj portal 10"
+msgstr "Portal 10"
+
+msgctxt "#41000"
+msgid "Portal 11"
+msgstr "Portal 11"
+
+msgctxt "#42000"
+msgid "Portal 12"
+msgstr "Moj portal 12"

@@ -206,4 +206,12 @@ msgstr "Zugang 9"
 
 msgctxt "#40000"
 msgid "Portal 10"
-msgstr "Mein Zugang 10"
+msgstr "Zugang 10"
+
+msgctxt "#41000"
+msgid "Portal 11"
+msgstr "Zugang 11"
+
+msgctxt "#42000"
+msgid "Portal 12"
+msgstr "Mein Zugang 12"
