@@ -1146,7 +1146,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.spotitube" name="Youtube Music" version="2.1.7zd" provider-name="realvito (inspired by L0RE) and ZadarTeam">
+<addon id="plugin.video.spotitube" name="Youtube Music ZD" version="2.1.7zd" provider-name="realvito (inspired by L0RE) and ZadarTeam">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 		<import addon="plugin.video.youtube" version="6.3.0"/>
