@@ -207,7 +207,7 @@ def update_video_infos(provider, context, video_id_dict, playlist_item_id_dict=N
         video_item = video_id_dict[video_id]
 
         # set mediatype
-        video_item.set_mediatype('episode')  # using video
+        video_item.set_mediatype('video')  # using video
 
         if not yt_item:
             continue
