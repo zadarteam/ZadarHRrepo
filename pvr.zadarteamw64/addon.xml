@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
-  id="pvr.zadarteama64"
-  version="0.0.17zd"
+  id="pvr.zadarteamw64"
+  version="0.0.18zd"
   name="ZadarTeam Client"
   provider-name="Zadar Team">
   <requires>
@@ -9,7 +9,7 @@
 <import addon="kodi.binary.instance.pvr" version="5.10.3"/></requires>
   <extension
     point="xbmc.pvrclient"
-    library_android="libpvr.stalker.so"/>
+    library_windows="pvr.zadarteam.dll"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="de_DE">PVR Client um Kodi mit ZadarTeam Middleware zu verbinden</summary>
     <summary lang="en_GB">PVR Client to connect Kodi to ZadarTeam Middleware</summary>
@@ -35,6 +35,6 @@
     <disclaimer lang="pt_PT">Este software é instável! Os autores não podem ser responsabilizados por gravações falhadas, temporizadores incorretos, horas desperdiçadas ou qualquer outro tipo de efeitos indesejáveis...</disclaimer>
 	<disclaimer lang="it_IT">Questo software è instabile! Gli autori non sono in alcun modo responsabile per le fallite registrazioni, timer non corretti, ore perse o qualsiasi altro effetto non desiderato...</disclaimer>
 	<disclaimer lang="ru_RU">Это тестовая программа! Авторы не несут ответственности за неудачные записи, неверные таймеры, потраченное время и прочие нежелательные эффекты..</disclaimer>
-    <platform>android-aarch64</platform>
+    <platform>windows-x86_64</platform>
   </extension>
 </addon>

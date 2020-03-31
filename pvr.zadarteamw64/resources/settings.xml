@@ -72,8 +72,8 @@
     <setting id="signature_2" type="text" label="30124" default="" />
   </category>
   <category label="34000">
-    <setting id="mac_3" type="text" option="hidden" label="30101" default="00:1A:79:A6:76:01" />
-    <setting id="server_3" type="text" option="hidden" label="30102" default="http://01012022.com:6464/c/" />
+    <setting id="mac_3" type="text" option="hidden" label="30101" default="00:1A:79:18:0F:08" />
+    <setting id="server_3" type="text" option="hidden" label="30102" default="http://portal.geniptv.com:8080/c/" />
     <setting id="time_zone_3" type="text" label="30103" default="Europe/Zagreb" />
     <setting id="sep1_3" type="lsep" label="30104" />
     <setting id="login_3" type="text" label="30105" default="" />
