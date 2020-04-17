@@ -1168,6 +1168,20 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.exyuzdvideoteka" name="[B][I][COLOR blue]ZD Ex-Yu videoteka[/COLOR][/I][/B]" version="1.2" provider-name="ZBTH">
+    <requires>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>ZD Ex-Yu videoteka</summary>
+        <description>]ZD Ex-Yu videoteka je KODI Addon za gledanje filmova i serija. Autor ovog addona (programskog dodatka) nema nikakav autorski materijal unutar ovog addona. Koristi linkove koji su dostupni na internetu, te ne snosi nikakvu odgovornost za njegovu upotrebu.</description>
+    </extension>
+</addon>
+
 <addon id="plugin.video.f4mTester" name="f4mTester" version="2.7.2" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
