@@ -1479,6 +1479,20 @@ INFO: For latest changes see Changelog within Tools of add-on.
     </extension>
 </addon>
 
+<addon id="plugin.video.zdvideoteka" name="[B][I][COLOR mediumblue]ZD videoteka[/COLOR][/I][/B]" version="1.1" provider-name="ZBTH">
+    <requires>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>ZD videoteka</summary>
+        <description>]ZD videoteka je KODI Addon za gledanje filmova i serija. Autor ovog addona (programskog dodatka) nema nikakav autorski materijal unutar ovog addona. Koristi linkove koji su dostupni na internetu, te ne snosi nikakvu odgovornost za njegovu upotrebu.</description>
+    </extension>
+</addon>
+
 <addon
   id="pvr.zadarteamaarch64"
   version="0.0.18zd"
