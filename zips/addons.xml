@@ -1510,7 +1510,7 @@ autor: Siniša Nićetin Nićke
     </extension>
 </addon>
 
-<addon id="plugin.video.zdvideoteka" name="[B][I][COLOR mediumblue]ZD videoteka[/COLOR][/I][/B]" version="1.1" provider-name="ZBTH">
+<addon id="plugin.video.zdvideoteka" name="[B][I][COLOR mediumblue]ZD videoteka[/COLOR][/I][/B]" version="1.2" provider-name="ZBTH">
     <requires>
     </requires>
     <extension point="xbmc.python.pluginsource"

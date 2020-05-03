@@ -26,6 +26,7 @@ fan_dracula = xbmc.translatePath(os.path.join(home, 'serije.jpg'))
 fan_chernobyl = xbmc.translatePath(os.path.join(home, 'serije.jpg'))
 fan_theoutsider = xbmc.translatePath(os.path.join(home, 'serije.jpg'))
 fan_thestranger = xbmc.translatePath(os.path.join(home, 'serije.jpg'))
+fan_survivor = xbmc.translatePath(os.path.join(home, 'serije.jpg'))
 
 
 
@@ -40,6 +41,7 @@ icon_dracula = xbmc.translatePath(os.path.join(home, 'wserije.png'))
 icon_chernobyl = xbmc.translatePath(os.path.join(home, 'wserije.png'))
 icon_theoutsider = xbmc.translatePath(os.path.join(home, 'wserije.png'))
 icon_thestranger = xbmc.translatePath(os.path.join(home, 'wserije.png'))
+icon_survivor = xbmc.translatePath(os.path.join(home, 'wserije.png'))
 
 
 
@@ -56,6 +58,7 @@ dracula_m3u ="http://zadarbuild.com.hr/VideotekaZD/dracula.m3u"
 chernobyl_m3u ="http://zadarbuild.com.hr/VideotekaZD/chernobyl.m3u"
 theoutsider_m3u ="http://zadarbuild.com.hr/VideotekaZD/theoutsider.m3u"
 thestranger_m3u ="http://zadarbuild.com.hr/VideotekaZD/thestranger.m3u"
+survivor_m3u ="http://zadarbuild.com.hr/VideotekaZD/survivor.m3u"
 
 
 xml_regex = '#(.+?),(.+)\s*(.+)\s*'
@@ -113,6 +116,8 @@ def main():
 		add_dir('[COLOR silver][B]**  SERIJA THE OUTSIDER (2020-)[/B][/COLOR]', u_tube, 9, icon_theoutsider, fan_theoutsider)
 	if len(thestranger_m3u) > 0:	
 		add_dir('[COLOR blue][B]**  SERIJA THE STRANGER (2020-)[/B][/COLOR]', u_tube, 10, icon_thestranger, fan_thestranger)
+	if len(survivor_m3u) > 0:	
+		add_dir('[COLOR red][B]**  SERIJA DESIGNATED SURVIVOR (2016 - 2019)[/B][/COLOR]', u_tube, 12, icon_survivor, fan_survivor)        
 	
         
        
@@ -205,6 +210,16 @@ def m3u_thestranger():
 			m3u_playlist(name, url, thumb)
 		except:
 			pass
+            
+def m3u_survivor():			
+	content = make_request(survivor_m3u)
+	match = re.compile(m3u_regex).findall(content)
+	for thumb, name, url in match:
+		try:
+			m3u_playlist(name, url, thumb)
+		except:
+			pass
+           
            
 
            				
@@ -332,11 +347,14 @@ elif mode == 7:
 	
 elif mode == 8:
 	m3u_chernobyl()
-
+    
 elif mode == 9:
 	m3u_theoutsider()
-	
+
 elif mode == 10:
 	m3u_thestranger()
+	
+elif mode == 12:
+	m3u_survivor()
    	
 xbmcplugin.endOfDirectory(plugin_handle)
