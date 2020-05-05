@@ -27,6 +27,9 @@ fan_chernobyl = xbmc.translatePath(os.path.join(home, 'serije.jpg'))
 fan_theoutsider = xbmc.translatePath(os.path.join(home, 'serije.jpg'))
 fan_thestranger = xbmc.translatePath(os.path.join(home, 'serije.jpg'))
 fan_survivor = xbmc.translatePath(os.path.join(home, 'serije.jpg'))
+fan_bodyguard = xbmc.translatePath(os.path.join(home, 'serije.jpg'))
+fan_return = xbmc.translatePath(os.path.join(home, 'serije.jpg'))
+fan_lacasa = xbmc.translatePath(os.path.join(home, 'serije.jpg'))
 
 
 
@@ -42,6 +45,9 @@ icon_chernobyl = xbmc.translatePath(os.path.join(home, 'wserije.png'))
 icon_theoutsider = xbmc.translatePath(os.path.join(home, 'wserije.png'))
 icon_thestranger = xbmc.translatePath(os.path.join(home, 'wserije.png'))
 icon_survivor = xbmc.translatePath(os.path.join(home, 'wserije.png'))
+icon_bodyguard = xbmc.translatePath(os.path.join(home, 'wserije.png'))
+icon_return = xbmc.translatePath(os.path.join(home, 'wserije.png'))
+icon_lacasa = xbmc.translatePath(os.path.join(home, 'wserije.png'))
 
 
 
@@ -59,6 +65,9 @@ chernobyl_m3u ="http://zadarbuild.com.hr/VideotekaZD/chernobyl.m3u"
 theoutsider_m3u ="http://zadarbuild.com.hr/VideotekaZD/theoutsider.m3u"
 thestranger_m3u ="http://zadarbuild.com.hr/VideotekaZD/thestranger.m3u"
 survivor_m3u ="http://zadarbuild.com.hr/VideotekaZD/survivor.m3u"
+bodyguard_m3u ="http://zadarbuild.com.hr/VideotekaZD/bodyguard.m3u"
+return_m3u ="http://zadarbuild.com.hr/VideotekaZD/return_to_eden.m3u"
+lacasa_m3u ="http://zadarbuild.com.hr/VideotekaZD/lacasa.m3u"
 
 
 xml_regex = '#(.+?),(.+)\s*(.+)\s*'
@@ -117,7 +126,13 @@ def main():
 	if len(thestranger_m3u) > 0:	
 		add_dir('[COLOR blue][B]**  SERIJA THE STRANGER (2020-)[/B][/COLOR]', u_tube, 10, icon_thestranger, fan_thestranger)
 	if len(survivor_m3u) > 0:	
-		add_dir('[COLOR red][B]**  SERIJA DESIGNATED SURVIVOR (2016 - 2019)[/B][/COLOR]', u_tube, 12, icon_survivor, fan_survivor)        
+		add_dir('[COLOR red][B]**  SERIJA DESIGNATED SURVIVOR (2016 - 2019)[/B][/COLOR]', u_tube, 12, icon_survivor, fan_survivor) 
+	if len(bodyguard_m3u) > 0:	
+		add_dir('[COLOR silver][B]**  SERIJA BODYGUARD (2018 -)[/B][/COLOR]', u_tube, 13, icon_bodyguard, fan_bodyguard) 
+	if len(return_m3u) > 0:	
+		add_dir('[COLOR blue][B]**  MINI SERIJA RETURN TO EDEN (1983)[/B][/COLOR]', u_tube, 14, icon_return, fan_return) 
+	if len(lacasa_m3u) > 0:	
+		add_dir('[COLOR red][B]**  SERIJA LA CASA DE PAPEL (2017-)[/B][/COLOR]', u_tube, 15, icon_lacasa, fan_lacasa)        
 	
         
        
@@ -219,7 +234,34 @@ def m3u_survivor():
 			m3u_playlist(name, url, thumb)
 		except:
 			pass
-           
+            
+def m3u_bodyguard():			
+	content = make_request(bodyguard_m3u)
+	match = re.compile(m3u_regex).findall(content)
+	for thumb, name, url in match:
+		try:
+			m3u_playlist(name, url, thumb)
+		except:
+			pass
+            
+def m3u_return():			
+	content = make_request(return_m3u)
+	match = re.compile(m3u_regex).findall(content)
+	for thumb, name, url in match:
+		try:
+			m3u_playlist(name, url, thumb)
+		except:
+			pass
+            
+def m3u_lacasa():			
+	content = make_request(lacasa_m3u)
+	match = re.compile(m3u_regex).findall(content)
+	for thumb, name, url in match:
+		try:
+			m3u_playlist(name, url, thumb)
+		except:
+			pass
+            
            
 
            				
@@ -356,5 +398,14 @@ elif mode == 10:
 	
 elif mode == 12:
 	m3u_survivor()
+ 	
+elif mode == 13:
+	m3u_bodyguard()
+ 	
+elif mode == 14:
+	m3u_return()
+ 	
+elif mode == 15:
+	m3u_lacasa()
    	
 xbmcplugin.endOfDirectory(plugin_handle)

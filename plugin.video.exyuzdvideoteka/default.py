@@ -27,6 +27,8 @@ fan_zigosani = xbmc.translatePath(os.path.join(home, 'serije.jpg'))
 fan_grupa = xbmc.translatePath(os.path.join(home, 'serije.jpg'))
 fan_kalup = xbmc.translatePath(os.path.join(home, 'serije.jpg'))
 fan_besa = xbmc.translatePath(os.path.join(home, 'serije.jpg'))
+fan_tajkun = xbmc.translatePath(os.path.join(home, 'serije.jpg'))
+fan_igrasudbine = xbmc.translatePath(os.path.join(home, 'serije.jpg'))
 
 
 
@@ -42,6 +44,8 @@ icon_zigosani = xbmc.translatePath(os.path.join(home, 'exserije.png'))
 icon_grupa = xbmc.translatePath(os.path.join(home, 'exserije.png'))
 icon_kalup = xbmc.translatePath(os.path.join(home, 'exserije.png'))
 icon_besa = xbmc.translatePath(os.path.join(home, 'exserije.png'))
+icon_tajkun = xbmc.translatePath(os.path.join(home, 'exserije.png'))
+icon_igrasudbine = xbmc.translatePath(os.path.join(home, 'exserije.png'))
 
 
 
@@ -59,6 +63,8 @@ zigosani_m3u ="http://zadarbuild.com.hr/EX-YUVideotekaZD/zigosani.m3u"
 grupa_m3u ="http://zadarbuild.com.hr/EX-YUVideotekaZD/grupa.m3u"
 kalup_m3u ="http://zadarbuild.com.hr/EX-YUVideotekaZD/kalup.m3u"
 besa_m3u ="http://zadarbuild.com.hr/EX-YUVideotekaZD/besa.m3u"
+tajkun_m3u ="http://zadarbuild.com.hr/EX-YUVideotekaZD/tajkun.m3u"
+igrasudbine_m3u ="http://zadarbuild.com.hr/EX-YUVideotekaZD/igra_sudbine.m3u"
 
 
 xml_regex = '#(.+?),(.+)\s*(.+)\s*'
@@ -117,7 +123,11 @@ def main():
 	if len(kalup_m3u) > 0:	
 		add_dir('[COLOR red][B]**  SERIJA KALUP - MINI SERIJA  (2020)[/B][/COLOR]', u_tube, 11, icon_kalup, fan_kalup)
 	if len(grudi_m3u) > 0:	
-		add_dir('[COLOR silver][B]**  SERIJA GRUDI - MINI SERIJA (2018)[/B][/COLOR]', u_tube, 12, icon_grudi, fan_grudi)        
+		add_dir('[COLOR silver][B]**  SERIJA GRUDI - MINI SERIJA (2018)[/B][/COLOR]', u_tube, 12, icon_grudi, fan_grudi)  
+	if len(tajkun_m3u) > 0:	
+		add_dir('[COLOR blue][B]**  SERIJA TAJKUN  (2020-)[/B][/COLOR]', u_tube, 13, icon_tajkun, fan_tajkun)
+	if len(igrasudbine_m3u) > 0:	
+		add_dir('[COLOR red][B]**  SERIJA IGRA SUDBINE (2020-)[/B][/COLOR]', u_tube, 14, icon_igrasudbine, fan_igrasudbine)         
 	
         
        
@@ -219,7 +229,25 @@ def m3u_besa():
 			m3u_playlist(name, url, thumb)
 		except:
 			pass            
-            
+			
+def m3u_tajkun():			
+	content = make_request(tajkun_m3u)
+	match = re.compile(m3u_regex).findall(content)
+	for thumb, name, url in match:
+		try:
+			m3u_playlist(name, url, thumb)
+		except:
+			pass            
+			
+def m3u_igrasudbine():			
+	content = make_request(igrasudbine_m3u)
+	match = re.compile(m3u_regex).findall(content)
+	for thumb, name, url in match:
+		try:
+			m3u_playlist(name, url, thumb)
+		except:
+			pass            
+             
 
            				
 def m3u_playlist(name, url, thumb):	
@@ -355,5 +383,11 @@ elif mode == 11:
 	
 elif mode == 12:
 	m3u_grudi()
-   	
+	
+elif mode == 13:
+	m3u_tajkun()
+ 	
+elif mode == 14:
+	m3u_igrasudbine()
+    	
 xbmcplugin.endOfDirectory(plugin_handle)
