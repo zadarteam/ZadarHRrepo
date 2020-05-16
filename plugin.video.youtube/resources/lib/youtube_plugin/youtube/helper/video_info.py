@@ -688,7 +688,7 @@ class VideoInfo(object):
             fl = []
             if len(_fmts) > 0:
                 try:
-                    fl = _fmts[0].get('cipher').split(',')
+                    fl = _fmts[0].get('signatureCipher',  _fmts[0].get('cipher')).split(',')
                 except AttributeError:
                     fl = _fmts[0].get('url', '').split('&')
             return (len(fl) > 0) and ('s' in dict(urllib.parse.parse_qsl(fl[0])))
@@ -853,6 +853,11 @@ class VideoInfo(object):
                 if not reason:
                     reason = 'UNKNOWN'
 
+                try:
+                    reason = reason.encode('raw_unicode_escape').decode('utf-8')
+                except:
+                    pass
+
                 raise YouTubeException(reason)
 
         meta_info['subtitles'] = Subtitles(self._context, video_id, captions).get_subtitles()
@@ -880,7 +885,7 @@ class VideoInfo(object):
                 '&st={st}&et={et}&state={state}'
             ])
 
-        if is_live:
+        if live_url:
             stream_list = self._load_manifest(live_url, video_id,
                                               meta_info=meta_info,
                                               curl_headers=curl_headers,
@@ -985,7 +990,7 @@ class VideoInfo(object):
         def parse_to_stream_list(streams):
             for item in streams:
                 stream_map = item
-                stream_map.update(dict(urllib.parse.parse_qsl(item.get('cipher', ''))))
+                stream_map.update(dict(urllib.parse.parse_qsl(item.get('signatureCipher', item.get('cipher', '')))))
 
                 url = stream_map.get('url', None)
                 conn = stream_map.get('conn', None)
@@ -1184,7 +1189,7 @@ class VideoInfo(object):
         data = dict()
         for item in adaptive_fmts:
             stream_map = item
-            stream_map.update(dict(urllib.parse.parse_qsl(item.get('cipher', ''))))
+            stream_map.update(dict(urllib.parse.parse_qsl(item.get('signatureCipher', item.get('cipher', '')))))
             stream_map['itag'] = str(stream_map.get('itag'))
 
             t = stream_map.get('mimeType')
@@ -1204,7 +1209,7 @@ class VideoInfo(object):
 
             data[mime][i]['quality_label'] = str(stream_map.get('qualityLabel'))
 
-            data[mime][i]['bandwidth'] = stream_map.get('bitrate')
+            data[mime][i]['bandwidth'] = stream_map.get('bitrate', 0)
 
             # map frame rates to a more common representation to lessen the chance of double refresh changes
             # sometimes 30 fps is 30 fps, more commonly it is 29.97 fps (same for all mapped frame rates)
@@ -1247,7 +1252,8 @@ class VideoInfo(object):
                 if mime.startswith('video'):
                     discarded_streams.append(get_discarded_video(mime, i, data[mime][i], 'no init or index'))
                 else:
-                    discarded_streams.append(get_discarded_audio(mime, i, data[mime][i], 'no init or index'))
+                    stream_format = self.FORMAT.get(i, {})
+                    discarded_streams.append(get_discarded_audio(stream_format, mime, i, data[mime][i], 'no init or index'))
                 del data[mime][i]
 
         if not data.get('video/mp4') and not data.get('video/webm'):
