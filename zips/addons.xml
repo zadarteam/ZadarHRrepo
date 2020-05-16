@@ -924,6 +924,20 @@
 	</extension>
 </addon>
 
+<addon id="plugin.close.kodi" name="[COLOR red] Kodi Beenden[/COLOR] " version="4.1.4" provider-name="Based_Skid mod Gatekeeper">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Kodi Beenden</summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.program.ZadarWizard" name="Zadar Wizard" version="1.0.2" provider-name="ZadarTeam">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
