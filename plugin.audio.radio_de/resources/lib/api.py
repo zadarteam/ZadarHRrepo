@@ -43,6 +43,7 @@ class RadioApi():
         'german': 'http://api.radio.de/info',
         'french': 'http://api.radio.fr/info',
         'portuguese': 'http://api.radio.pt/info',
+        'spanish': 'http://api.radio.es/info',
     }
 
     USER_AGENT = 'XBMC Addon Radio'
@@ -137,6 +138,17 @@ class RadioApi():
             station['streamUrl'] = self.__resolve_playlist(station)
         stations = (station, )
         return self.__format_stations_v2(stations)[0]
+
+    def internal_resolver(self, station, ):
+        if station.get('is_custom', False):
+            stream_url = station['stream_url']
+        else:
+            stream_url = station['streamUrl']
+
+        if self.__check_paylist(stream_url):
+            return self.__resolve_playlist(station)
+        else:
+            return stream_url
 
     def get_top_stations(self, sizeperpage, pageindex):
         self.log(('get_top_stations started with '
@@ -258,7 +270,13 @@ class RadioApi():
         self.log('__resolve_playlist started with station=%s'
                  % station['id'])
         servers = []
-        stream_url = station['streamURL']
+
+        # Check if it is a custom station
+        if station.get('is_custom', False):
+            stream_url = station['stream_url']
+        else:
+            stream_url = station['streamUrl']
+
         if stream_url.lower().endswith('m3u'):
             response = self.__urlopen(stream_url)
             self.log('__resolve_playlist found .m3u file')

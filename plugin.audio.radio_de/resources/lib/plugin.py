@@ -476,7 +476,7 @@ def sub_menu_entry(option, category, value, page=1):
 def get_stream_url(station_id):
     if my_stations.get(station_id, {}).get('is_custom', False):
         station = my_stations[station_id]
-        stream_url = station['stream_url']
+        stream_url = radio_api.internal_resolver(station)
         current_track = ''
     else:
         station = radio_api.get_station_by_station_id(
@@ -530,7 +530,7 @@ def __add_stations(stations, add_custom=False, browse_more=None):
             'fanart': __get_plugin_fanart(),
             'info': {
                 'title': station.get('name', ''),
-                'rating': str(station.get('rating', '0.0')),
+                'rating': (10.0 - 0.0)*((float(station.get('rating', 0.0))-30.000)/(1.0-30.000)), # linear interpolation
                 'genre': station.get('genre', ''),
                 'size': int(station.get('bitrate', 0)),
                 'comment': station.get('description', ''),
@@ -572,7 +572,7 @@ def __add_stations(stations, add_custom=False, browse_more=None):
 
 
 def __get_language():
-    languages = ('english', 'german', 'french', 'portuguese')
+    languages = ('english', 'german', 'french', 'portuguese', 'spanish')
     if not plugin.get_setting('not_first_run', str):
         xbmc_language = xbmc.getLanguage().lower()
         __log('__get_language has first run with xbmc_language=%s'
