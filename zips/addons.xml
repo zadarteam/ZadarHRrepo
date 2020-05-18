@@ -1544,7 +1544,7 @@ autor: Siniša Nićetin Nićke
 
 <addon
   id="pvr.zadarteamaarch64"
-  version="0.0.18zd"
+  version="0.0.19zd"
   name="ZadarTeam Client"
   provider-name="Zadar Team">
   <requires>
@@ -1552,7 +1552,7 @@ autor: Siniša Nićetin Nićke
 <import addon="kodi.binary.instance.pvr" version="5.10.3"/></requires>
   <extension
     point="xbmc.pvrclient"
-    library_android="libpvr.zadarteam.so"/>
+    library_android="libpvr.stalker.so"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="de_DE">PVR Client um Kodi mit ZadarTeam Middleware zu verbinden</summary>
     <summary lang="en_GB">PVR Client to connect Kodi to ZadarTeam Middleware</summary>
@@ -1666,7 +1666,7 @@ autor: Siniša Nićetin Nićke
 
 <addon
   id="pvr.zadarteamarmv7"
-  version="0.0.18zd"
+  version="0.0.19zd"
   name="ZadarTeam Client"
   provider-name="Zadar Team">
   <requires>
@@ -1674,7 +1674,7 @@ autor: Siniša Nićetin Nićke
 <import addon="kodi.binary.instance.pvr" version="5.10.3"/></requires>
   <extension
     point="xbmc.pvrclient"
-    library_android="libpvr.zadarteam.so"/>
+    library_android="libpvr.stalker.so"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="de_DE">PVR Client um Kodi mit ZadarTeam Middleware zu verbinden</summary>
     <summary lang="en_GB">PVR Client to connect Kodi to ZadarTeam Middleware</summary>
@@ -1706,7 +1706,7 @@ autor: Siniša Nićetin Nićke
 
 <addon
   id="pvr.zadarteamw64"
-  version="0.0.18zd"
+  version="0.0.19zd"
   name="ZadarTeam Client"
   provider-name="Zadar Team">
   <requires>
@@ -1714,7 +1714,7 @@ autor: Siniša Nićetin Nićke
 <import addon="kodi.binary.instance.pvr" version="5.10.3"/></requires>
   <extension
     point="xbmc.pvrclient"
-    library_windows="pvr.zadarteam.dll"/>
+    library_windows="pvr.stalker.dll"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="de_DE">PVR Client um Kodi mit ZadarTeam Middleware zu verbinden</summary>
     <summary lang="en_GB">PVR Client to connect Kodi to ZadarTeam Middleware</summary>
@@ -1746,7 +1746,7 @@ autor: Siniša Nićetin Nićke
 
 <addon
   id="pvr.zadarteamwi686"
-  version="0.0.18zd"
+  version="0.0.19zd"
   name="ZadarTeam Client"
   provider-name="Zadar Team">
   <requires>
@@ -1754,7 +1754,7 @@ autor: Siniša Nićetin Nićke
 <import addon="kodi.binary.instance.pvr" version="5.10.3"/></requires>
   <extension
     point="xbmc.pvrclient"
-    library_windows="pvr.zadarteam.dll"/>
+    library_windows="pvr.stalker.dll"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="de_DE">PVR Client um Kodi mit ZadarTeam Middleware zu verbinden</summary>
     <summary lang="en_GB">PVR Client to connect Kodi to ZadarTeam Middleware</summary>
