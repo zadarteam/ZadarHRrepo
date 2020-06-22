@@ -122,9 +122,9 @@
 
     <!-- personal api key -->
     <category label="30200">
-        <setting id="youtube.api.key" type="text" label="30201" default="AIzaSyDywAA53rPcByaP2A6qWAUDMDmQ7Gxyn_w"/>
+        <setting id="youtube.api.key" type="text" option="hidden" label="30201" default="AIzaSyDywAA53rPcByaP2A6qWAUDMDmQ7Gxyn_w"/>
         <setting id="youtube.api.id" type="text" label="30202" default="youtube-zadarteam"/>
-        <setting id="youtube.api.secret" type="text" label="30203" default="AIzaSyDywAA53rPcByaP2A6qWAUDMDmQ7Gxyn_w"/>
+        <setting id="youtube.api.secret" type="text" option="hidden" label="30203" default="AIzaSyDywAA53rPcByaP2A6qWAUDMDmQ7Gxyn_w"/>
         <setting id="youtube.allow.dev.keys" type="bool" label="30608" default="true"/>
         <setting id="youtube.api.config.address" type="lsep" label="30633" visible="eq(1,true)"/>
         <setting id="youtube.api.config.page" type="bool" label="30632" default="false"/>
