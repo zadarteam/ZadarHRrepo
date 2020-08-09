@@ -8,8 +8,6 @@
     See LICENSES/GPL-2.0-only for more information.
 """
 
-from six import string_types
-
 import xbmc
 import xbmcgui
 
@@ -34,18 +32,6 @@ class XbmcContextUI(AbstractContextUI):
             return XbmcProgressDialogBG(heading, text)
 
         return XbmcProgressDialog(heading, text)
-
-    def set_view_mode(self, view_mode):
-        if isinstance(view_mode, string_types):
-            view_mode = self._context.get_settings().get_int(constants.setting.VIEW_X % view_mode, self._context.get_settings().get_int(constants.setting.VIEW_DEFAULT, 50))
-
-        self._view_mode = view_mode
-
-    def get_view_mode(self):
-        if self._view_mode is not None:
-            return self._view_mode
-
-        return self._context.get_settings().get_int(constants.setting.VIEW_DEFAULT, 50)
 
     def get_skin_id(self):
         return xbmc.getSkinDir()
@@ -140,7 +126,7 @@ class XbmcContextUI(AbstractContextUI):
         if not _image:
             _image = self._context.get_icon()
 
-        _message = utils.to_utf8(message)
+        _message = utils.to_utf8(message.decode('unicode-escape'))
         try:
             _message = _message.replace(',', ' ')
             _message = _message.replace('\n', ' ')
