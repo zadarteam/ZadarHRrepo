@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="pvr.zadarteamarmv7"
-  version="0.0.19zd"
+  version="0.0.20zd"
   name="ZadarTeam Client"
   provider-name="Zadar Team">
   <requires>
