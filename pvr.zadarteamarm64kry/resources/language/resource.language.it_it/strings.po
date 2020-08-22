@@ -187,3 +187,7 @@ msgstr "Portale 4"
 msgctxt "#35000"
 msgid "Portal 5"
 msgstr "Portale 5"
+
+msgctxt "#36000"
+msgid "Portal 6"
+msgstr "Il mio portale 6"

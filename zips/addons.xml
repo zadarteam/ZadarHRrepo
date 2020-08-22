@@ -1582,7 +1582,7 @@ autor: Siniša Nićetin Nićke
 
 <addon
   id="pvr.zadarteamarm64kry"
-  version="0.0.1zd"
+  version="0.0.2zd"
   name="ZadarTeam Client"
   provider-name="Zadar Team">
   <requires>
@@ -1623,7 +1623,7 @@ autor: Siniša Nićetin Nićke
 
 <addon
   id="pvr.zadarteamarmeabikry"
-  version="0.0.1zd"
+  version="0.0.2zd"
   name="ZadarTeam Client"
   provider-name="Zadar Team">
   <requires>
@@ -1784,7 +1784,7 @@ autor: Siniša Nićetin Nićke
 
 <addon
   id="pvr.zadarteamwinx86kry"
-  version="0.0.1zd"
+  version="0.0.2zd"
   name="ZadarTeam Client"
   provider-name="Zadar Team">
   <requires>

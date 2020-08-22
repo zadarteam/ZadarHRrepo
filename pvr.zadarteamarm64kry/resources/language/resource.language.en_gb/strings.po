@@ -203,3 +203,7 @@ msgstr ""
 msgctxt "#35000"
 msgid "Portal 5"
 msgstr ""
+
+msgctxt "#36000"
+msgid "Portal 6"
+msgstr "My portal 6"

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
   <category label="30000">
-    <setting id="active_portal" type="enum" label="30001" values="1|2|3|4|5" default="0" />
+    <setting id="active_portal" type="enum" label="30001" values="1|2|3|4|5|6" default="0" />
     <setting id="sep1" type="lsep" label="30002" />
     <setting id="connection_timeout" type="enum" label="30003" values="0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100|105|110|115|120" default="1" />
   </category>
   <category label="31000">
-    <setting id="mac_0" type="text" option="hidden" label="30101" default="00:1A:79:3D:27:2D" />
-    <setting id="server_0" type="text" option="hidden" label="30102" default="http://4kiptv.vip:25461/c/" />
+    <setting id="mac_0" type="text" option="hidden" label="30101" default="00:1A:79:07:3A:41" />
+    <setting id="server_0" type="text" option="hidden" label="30102" default="http://xtreamtv.ddns.net:8000/c/" />
     <setting id="time_zone_0" type="text" label="30103" default="Europe/Zagreb" />
     <setting id="sep1_0" type="lsep" label="30104" />
     <setting id="login_0" type="text" label="30105" default="" />
@@ -94,8 +94,8 @@
     <setting id="signature_3" type="text" label="30124" default="" />
   </category>
   <category label="35000">
-    <setting id="mac_4" type="text" option="hidden" label="30101" default="00:1A:79:5E:FF:47" />
-    <setting id="server_4" type="text" option="hidden" label="30102" default="http://xtreamtv.ddns.net:8000/c/" />
+    <setting id="mac_4" type="text" option="hidden" label="30101" default="00:1A:79:31:11:64" />
+    <setting id="server_4" type="text" option="hidden" label="30102" default="http://ok2.se:8000/c/" />
     <setting id="time_zone_4" type="text" label="30103" default="Europe/Zagreb" />
     <setting id="sep1_4" type="lsep" label="30104" />
     <setting id="login_4" type="text" label="30105" default="" />
@@ -114,5 +114,27 @@
     <setting id="device_id_4" type="text" label="30122" default="" />
     <setting id="device_id2_4" type="text" label="30123" default="" />
     <setting id="signature_4" type="text" label="30124" default="" />
+  </category>
+  <category label="36000">
+    <setting id="mac_5" type="text" label="30101" default="00:1A:79:--:--:--" />
+    <setting id="server_5" type="text" label="30102" default="http://----" />
+    <setting id="time_zone_5" type="text" label="30103" default="Europe/Zagreb" />
+    <setting id="sep1_5" type="lsep" label="30104" />
+    <setting id="login_5" type="text" label="30105" default="" />
+    <setting id="password_5" type="text" option="hidden" label="30106" default="" />
+    <setting id="sep2_5" type="lsep" label="30107" />
+    <setting id="guide_preference_5" type="enum" label="30108" lvalues="30109|30110|30111|30112" default="0" />
+    <setting id="guide_cache_5" type="bool" label="30113" default="true" />
+    <setting id="guide_cache_hours_5" type="number" label="30114" default="24" />
+    <setting id="sep3_5" type="lsep" label="30115" />
+    <setting id="xmltv_scope_5" type="enum" label="30116" lvalues="30117|30118" default="0" />
+    <setting id="xmltv_url_5" type="text" option="hidden" label="30117" default="" visible="eq(-1,0)" />
+    <setting id="xmltv_path_5" type="file" label="30118" default="" visible="eq(-2,1)" />
+    <setting id="sep4_5" type="lsep" label="30119" />
+    <setting id="token_5" type="text" label="30120" default="" />
+    <setting id="serial_number_5" type="text" label="30121" default="" />
+    <setting id="device_id_5" type="text" label="30122" default="" />
+    <setting id="device_id2_5" type="text" label="30123" default="" />
+    <setting id="signature_5" type="text" label="30124" default="" />
   </category>
 </settings>
