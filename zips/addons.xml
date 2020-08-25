@@ -1449,7 +1449,7 @@ autor: Siniša Nićetin Nićke
 	</extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube ZD" version="6.8.4~alpha2zd" provider-name="anxdpanic, bromix and ZadarTeam">
+<addon id="plugin.video.youtube" name="YouTube ZD" version="6.8.4~alpha3zd" provider-name="anxdpanic, bromix and ZadarTeam">
     <requires>
         <import addon="xbmc.python" version="2.20.0"/>
         <import addon="script.module.six" version="1.11.0"/>
