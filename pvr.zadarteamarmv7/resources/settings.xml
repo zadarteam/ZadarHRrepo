@@ -6,8 +6,8 @@
     <setting id="connection_timeout" type="enum" label="30003" values="0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100|105|110|115|120" default="1" />
   </category>
   <category label="31000">
-    <setting id="mac_0" type="text" option="hidden" label="30101" default="00:1A:79:06:FD:9C" />
-    <setting id="server_0" type="text" option="hidden" label="30102" default="http://xtreamtv.ddns.net:8000/c/" />
+    <setting id="mac_0" type="text" option="hidden" label="30101" default="00:1A:79:00:55:09" />
+    <setting id="server_0" type="text" option="hidden" label="30102" default="http://qqtv.nl:8080/c/" />
     <setting id="time_zone_0" type="text" label="30103" default="Europe/Zagreb" />
     <setting id="sep1_0" type="lsep" label="30104" />
     <setting id="login_0" type="text" label="30105" default="" />
@@ -28,8 +28,8 @@
     <setting id="signature_0" type="text" label="30124" default="" />
   </category>
   <category label="32000">
-    <setting id="mac_1" type="text" option="hidden" label="30101" default="00:1A:79:06:02:A0" />
-    <setting id="server_1" type="text" option="hidden" label="30102" default="http://www.pandar.tv:25461/c/" />
+    <setting id="mac_1" type="text" option="hidden" label="30101" default="00:1A:79:03:1D:6A" />
+    <setting id="server_1" type="text" option="hidden" label="30102" default="http://ott.global-telecom.eu:25461/c/" />
     <setting id="time_zone_1" type="text" label="30103" default="Europe/Zagreb" />
     <setting id="sep1_1" type="lsep" label="30104" />
     <setting id="login_1" type="text" label="30105" default="" />
@@ -40,7 +40,7 @@
     <setting id="guide_cache_hours_1" type="number" label="30114" default="24" />
     <setting id="sep3_1" type="lsep" label="30115" />
     <setting id="xmltv_scope_1" type="enum" label="30116" lvalues="30117|30118" default="0" />
-    <setting id="xmltv_url_1" type="text" option="hidden" label="30117" default="" visible="eq(-1,0)" />
+    <setting id="xmltv_url_1" type="text" option="hidden" label="30117" default="http://bit.ly/crosat385" visible="eq(-1,0)" />
     <setting id="xmltv_path_1" type="file" label="30118" default="" visible="eq(-2,1)" />
     <setting id="sep4_1" type="lsep" label="30119" />
     <setting id="token_1" type="text" label="30120" default="" />
@@ -72,8 +72,8 @@
     <setting id="signature_2" type="text" label="30124" default="" />
   </category>
   <category label="34000">
-    <setting id="mac_3" type="text" option="hidden" label="30101" default="00:1A:79:09:C8:7E" />
-    <setting id="server_3" type="text" option="hidden" label="30102" default="http://www.exyubalkan-iptv.com.streamtv.to:8080/c/" />
+    <setting id="mac_3" type="text" option="hidden" label="30101" default="00:1A:79:06:FD:9C" />
+    <setting id="server_3" type="text" option="hidden" label="30102" default="http://xtreamtv.ddns.net:8000/c/" />
     <setting id="time_zone_3" type="text" label="30103" default="Europe/Zagreb" />
     <setting id="sep1_3" type="lsep" label="30104" />
     <setting id="login_3" type="text" label="30105" default="" />
@@ -116,8 +116,8 @@
     <setting id="signature_4" type="text" label="30124" default="" />
   </category>
   <category label="36000">
-    <setting id="mac_5" type="text" option="hidden" label="30101" default="00:1A:79:A7:57:14" />
-    <setting id="server_5" type="text" option="hidden" label="30102" default="http://qqtv.nl:8080/c/" />
+    <setting id="mac_5" type="text" option="hidden" label="30101" default="00:1A:79:06:02:A0" />
+    <setting id="server_5" type="text" option="hidden" label="30102" default="http://www.pandar.tv:25461/c/" />
     <setting id="time_zone_5" type="text" label="30103" default="Europe/Zagreb" />
     <setting id="sep1_5" type="lsep" label="30104" />
     <setting id="login_5" type="text" label="30105" default="" />
@@ -138,8 +138,8 @@
     <setting id="signature_5" type="text" label="30124" default="" />
   </category>
   <category label="37000">
-    <setting id="mac_6" type="text" option="hidden" label="30101" default="00:1A:79:5C:E9:5F" />
-    <setting id="server_6" type="text" option="hidden" label="30102" default="http://king-box.club:80/c/" />
+    <setting id="mac_6" type="text" option="hidden" label="30101" default="00:1A:79:07:53:C5" />
+    <setting id="server_6" type="text" option="hidden" label="30102" default="http://yeahiptv.vip:8080/c/" />
     <setting id="time_zone_6" type="text" label="30103" default="Europe/Zagreb" />
     <setting id="sep1_6" type="lsep" label="30104" />
     <setting id="login_6" type="text" label="30105" default="" />
@@ -160,8 +160,8 @@
     <setting id="signature_6" type="text" label="30124" default="" />
   </category>
   <category label="38000">
-    <setting id="mac_7" type="text" option="hidden" label="30101" default="00:1A:79:60:07:EA" />
-    <setting id="server_7" type="text" option="hidden" label="30102" default="http://mag.borderiptv.itv.world:8080/c/" />
+    <setting id="mac_7" type="text" option="hidden" label="30101" default="00:1A:79:01:5B:7F" />
+    <setting id="server_7" type="text" option="hidden" label="30102" default="http://tv.iptvone.de:8080/c/" />
     <setting id="time_zone_7" type="text" label="30103" default="Europe/Zagreb" />
     <setting id="sep1_7" type="lsep" label="30104" />
     <setting id="login_7" type="text" label="30105" default="" />
@@ -182,8 +182,8 @@
     <setting id="signature_7" type="text" label="30124" default="" />
   </category>
   <category label="39000">
-    <setting id="mac_8" type="text" option="hidden" label="30101" default="00:1A:79:90:B8:C7" />
-    <setting id="server_8" type="text" option="hidden" label="30102" default="http://bitkananeretvi.dyndns.org:8000/c/" />
+    <setting id="mac_8" type="text" option="hidden" label="30101" default="00:1A:79:00:FA:AC" />
+    <setting id="server_8" type="text" option="hidden" label="30102" default="http://bitkananeretvi.net:8000/c/" />
     <setting id="time_zone_8" type="text" label="30103" default="Europe/Zagreb" />
     <setting id="sep1_8" type="lsep" label="30104" />
     <setting id="login_8" type="text" label="30105" default="" />
@@ -204,8 +204,8 @@
     <setting id="signature_8" type="text" label="30124" default="" />
   </category>
   <category label="40000">
-    <setting id="mac_9" type="text" option="hidden" label="30101" default="00:1A:79:A4:6E:12" />
-    <setting id="server_9" type="text" option="hidden" label="30102" default="http://ip.bosszx.net:80/c/" />
+    <setting id="mac_9" type="text" option="hidden" label="30101" default="00:1A:79:00:74:80" />
+    <setting id="server_9" type="text" option="hidden" label="30102" default="http://tv.nova-iptv.com:25461/c/" />
     <setting id="time_zone_9" type="text" label="30103" default="Europe/Zagreb" />
     <setting id="sep1_9" type="lsep" label="30104" />
     <setting id="login_9" type="text" label="30105" default="" />
