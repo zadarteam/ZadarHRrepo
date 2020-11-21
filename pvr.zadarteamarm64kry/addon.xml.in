@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="pvr.zadarteamarm64kry"
-  version="0.0.1zd"
-  name="ZadarTeam Client"
+  version="0.0.3zd"
+  name="ZadarTeam Client for Krypton"
   provider-name="Zadar Team">
   <requires>
     <c-pluff version="0.1"/>

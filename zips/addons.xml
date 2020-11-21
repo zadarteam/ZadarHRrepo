@@ -1554,7 +1554,7 @@ autor: Siniša Nićetin Nićke
 
 <addon
   id="pvr.zadarteamaarch64"
-  version="0.0.22zd"
+  version="0.0.23zd"
   name="ZadarTeam Client"
   provider-name="Zadar Team">
   <requires>
@@ -1594,8 +1594,8 @@ autor: Siniša Nićetin Nićke
 
 <addon
   id="pvr.zadarteamarm64kry"
-  version="0.0.2zd"
-  name="ZadarTeam Client"
+  version="0.0.3zd"
+  name="ZadarTeam Client for Krypton"
   provider-name="Zadar Team">
   <requires>
     <c-pluff version="0.1"/>
@@ -1635,8 +1635,8 @@ autor: Siniša Nićetin Nićke
 
 <addon
   id="pvr.zadarteamarmeabikry"
-  version="0.0.2zd"
-  name="ZadarTeam Client"
+  version="0.0.3zd"
+  name="ZadarTeam Client for Krypton"
   provider-name="Zadar Team">
   <requires>
     <c-pluff version="0.1"/>
@@ -1676,7 +1676,7 @@ autor: Siniša Nićetin Nićke
 
 <addon
   id="pvr.zadarteamarmv7"
-  version="0.0.22zd"
+  version="0.0.23zd"
   name="ZadarTeam Client"
   provider-name="Zadar Team">
   <requires>
@@ -1716,7 +1716,7 @@ autor: Siniša Nićetin Nićke
 
 <addon
   id="pvr.zadarteamw64"
-  version="0.0.22zd"
+  version="0.0.23zd"
   name="ZadarTeam Client"
   provider-name="Zadar Team">
   <requires>
@@ -1756,7 +1756,7 @@ autor: Siniša Nićetin Nićke
 
 <addon
   id="pvr.zadarteamwi686"
-  version="0.0.22zd"
+  version="0.0.23zd"
   name="ZadarTeam Client"
   provider-name="Zadar Team">
   <requires>
@@ -1796,8 +1796,8 @@ autor: Siniša Nićetin Nićke
 
 <addon
   id="pvr.zadarteamwinx86kry"
-  version="0.0.2zd"
-  name="ZadarTeam Client"
+  version="0.0.3zd"
+  name="ZadarTeam Client for Krypton"
   provider-name="Zadar Team">
   <requires>
     <c-pluff version="0.1"/>
