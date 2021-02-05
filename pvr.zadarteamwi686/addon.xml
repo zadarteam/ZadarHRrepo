@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="pvr.zadarteamwi686"
-  version="0.0.23zd"
-  name="ZadarTeam Client"
+  version="0.0.24zd"
+  name="ZadarTeam Client for Kodi 18 Leia"
   provider-name="Zadar Team">
   <requires>
 <import addon="kodi.binary.global.main" version="1.0.14"/>

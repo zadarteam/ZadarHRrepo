@@ -214,4 +214,12 @@ msgstr "Portail 11"
 
 msgctxt "#42000"
 msgid "Portal 12"
-msgstr "Mon portail 12"
+msgstr "Portail 12"
+
+msgctxt "#43000"
+msgid "Portal 13"
+msgstr "Portail 13"
+
+msgctxt "#44000"
+msgid "Portal 14"
+msgstr "Mon portail 14"

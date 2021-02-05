@@ -244,4 +244,16 @@ msgstr ""
 
 msgctxt "#42000"
 msgid "Portal 12"
-msgstr "My portal 12"
+msgstr ""
+
+#empty strings from id 42001 to 42999
+
+msgctxt "#43000"
+msgid "Portal 13"
+msgstr ""
+
+#empty strings from id 43001 to 43999
+
+msgctxt "#44000"
+msgid "Portal 14"
+msgstr "My portal 14"

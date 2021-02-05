@@ -1554,8 +1554,8 @@ autor: Siniša Nićetin Nićke
 
 <addon
   id="pvr.zadarteamaarch64"
-  version="0.0.23zd"
-  name="ZadarTeam Client"
+  version="0.0.24zd"
+  name="ZadarTeam Client for Kodi 18 Leia"
   provider-name="Zadar Team">
   <requires>
 <import addon="kodi.binary.global.main" version="1.0.14"/>
@@ -1676,8 +1676,8 @@ autor: Siniša Nićetin Nićke
 
 <addon
   id="pvr.zadarteamarmv7"
-  version="0.0.23zd"
-  name="ZadarTeam Client"
+  version="0.0.24zd"
+  name="ZadarTeam Client for Kodi 18 Leia"
   provider-name="Zadar Team">
   <requires>
 <import addon="kodi.binary.global.main" version="1.0.14"/>
@@ -1716,8 +1716,8 @@ autor: Siniša Nićetin Nićke
 
 <addon
   id="pvr.zadarteamw64"
-  version="0.0.23zd"
-  name="ZadarTeam Client"
+  version="0.0.24zd"
+  name="ZadarTeam Client for Kodi 18 Leia"
   provider-name="Zadar Team">
   <requires>
 <import addon="kodi.binary.global.main" version="1.0.14"/>
@@ -1756,8 +1756,8 @@ autor: Siniša Nićetin Nićke
 
 <addon
   id="pvr.zadarteamwi686"
-  version="0.0.23zd"
-  name="ZadarTeam Client"
+  version="0.0.24zd"
+  name="ZadarTeam Client for Kodi 18 Leia"
   provider-name="Zadar Team">
   <requires>
 <import addon="kodi.binary.global.main" version="1.0.14"/>
