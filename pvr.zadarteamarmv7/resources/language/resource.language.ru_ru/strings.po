@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Stalker Client
+# Addon Name: ZadarTeam Client
 # Addon id: pvr.stalker
-# Addon Provider: Jamal Edey
+# Addon Provider: Zadar Team
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
@@ -190,36 +190,4 @@ msgstr "Портал 5"
 
 msgctxt "#36000"
 msgid "Portal 6"
-msgstr "Портал 6"
-
-msgctxt "#37000"
-msgid "Portal 7"
-msgstr "Портал 7"
-
-msgctxt "#38000"
-msgid "Portal 8"
-msgstr "Портал 8"
-
-msgctxt "#39000"
-msgid "Portal 9"
-msgstr "Портал 9"
-
-msgctxt "#40000"
-msgid "Portal 10"
-msgstr "Портал 10"
-
-msgctxt "#41000"
-msgid "Portal 11"
-msgstr "Портал 11"
-
-msgctxt "#42000"
-msgid "Portal 12"
-msgstr "Портал 12"
-
-msgctxt "#43000"
-msgid "Portal 13"
-msgstr "Портал 13"
-
-msgctxt "#44000"
-msgid "Portal 14"
-msgstr "Мой портал 14"
+msgstr "Мой портал 6"

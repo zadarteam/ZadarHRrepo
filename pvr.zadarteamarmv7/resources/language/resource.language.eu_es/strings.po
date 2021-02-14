@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Stalker Client
+# Addon Name: ZadarTeam Client
 # Addon id: pvr.stalker
-# Addon Provider: Jamal Edey
+# Addon Provider: Zadar Team
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"

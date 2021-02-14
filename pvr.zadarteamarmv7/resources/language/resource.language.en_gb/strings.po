@@ -1,6 +1,6 @@
 # Kodi Media Center language file
 # Addon Name: ZadarTeam Client
-# Addon id: pvr.zadarteam
+# Addon id: pvr.stalker
 # Addon Provider: Zadar Team
 msgid ""
 msgstr ""
@@ -208,52 +208,4 @@ msgstr ""
 
 msgctxt "#36000"
 msgid "Portal 6"
-msgstr ""
-
-#empty strings from id 36001 to 36999
-
-msgctxt "#37000"
-msgid "Portal 7"
-msgstr ""
-
-#empty strings from id 37001 to 37999
-
-msgctxt "#38000"
-msgid "Portal 8"
-msgstr ""
-
-#empty strings from id 38001 to 38999
-
-msgctxt "#39000"
-msgid "Portal 9"
-msgstr ""
-
-#empty strings from id 39001 to 39999
-
-msgctxt "#40000"
-msgid "Portal 10"
-msgstr ""
-
-#empty strings from id 40001 to 40999
-
-msgctxt "#41000"
-msgid "Portal 11"
-msgstr ""
-
-#empty strings from id 41001 to 41999
-
-msgctxt "#42000"
-msgid "Portal 12"
-msgstr ""
-
-#empty strings from id 42001 to 42999
-
-msgctxt "#43000"
-msgid "Portal 13"
-msgstr ""
-
-#empty strings from id 43001 to 43999
-
-msgctxt "#44000"
-msgid "Portal 14"
-msgstr "My portal 14"
+msgstr "My portal 6"
