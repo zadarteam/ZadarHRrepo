@@ -1594,8 +1594,8 @@ autor: Siniša Nićetin Nićke
 
 <addon
   id="pvr.zadarteamarm64kry"
-  version="0.0.3zd"
-  name="ZadarTeam Client for Krypton"
+  version="0.0.4zd"
+  name="ZadarTeam Client for Kodi 17 Krypton"
   provider-name="Zadar Team">
   <requires>
     <c-pluff version="0.1"/>
@@ -1635,8 +1635,8 @@ autor: Siniša Nićetin Nićke
 
 <addon
   id="pvr.zadarteamarmeabikry"
-  version="0.0.3zd"
-  name="ZadarTeam Client for Krypton"
+  version="0.0.4zd"
+  name="ZadarTeam Client for Kodi 17 Krypton"
   provider-name="Zadar Team">
   <requires>
     <c-pluff version="0.1"/>
@@ -1796,8 +1796,8 @@ autor: Siniša Nićetin Nićke
 
 <addon
   id="pvr.zadarteamwinx86kry"
-  version="0.0.3zd"
-  name="ZadarTeam Client for Krypton"
+  version="0.0.4zd"
+  name="ZadarTeam Client for Kodi 17 Krypton"
   provider-name="Zadar Team">
   <requires>
     <c-pluff version="0.1"/>

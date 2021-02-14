@@ -1,2 +1,2 @@
 
-- Krypton experimentally release by ZadarTeam
+- Krypton 17.x experimentally release by ZadarTeam
