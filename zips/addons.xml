@@ -946,24 +946,18 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.ZadarWizard" name="Zadar Wizard" version="1.0.3" provider-name="ZadarTeam">
+<addon id="plugin.program.ZTBHWizard" name="ZTBH Wizard" version="2.1" provider-name="Zadar Team">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
+        <provides>executable</provides>
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Zadar Wizard</summary>
-    <description lang="en">Zadar Wizard Buldovi od autora Zadar Team. Novi wizard prilagoden za sve verzije.</description>
-	<disclaimer lang="en"></disclaimer>
-	<news>v1.0.3 (2020-11-01)</news>
-	<platform>all</platform>
-	<language>en</language>
-	<license>GNU GENERAL PUBLIC LICENSE Version 3</license>
-	<email></email>
-	<website>http://zadarbuild.com.hr</website>
+    <summary lang="en">ZTBH Wizard</summary>
+    <description lang="en"></description>
+    <platform>all</platform>
   </extension>
 </addon>
 
@@ -1102,94 +1096,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.docula" name="Docula" version="1.6.4zd" provider-name="J1 - edit by ZadarTeam">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.universalscrapers" version="1.0.0" />
-        <import addon="script.module.python.koding.aio" version="0.0.1"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Documentaries</summary>
-		<description lang="en">Documentaries of All Genres - Template by Uncle Touchy - Adapted for your pleasure by J1</description>
-        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
-		<platform>all</platform>
-		<news></news>
-		<genre>All</genre>
-		<video_guide></video_guide>
-		<video_preview></video_preview>
-	</extension>
-</addon>
-
-<addon id="plugin.video.exodus" version="8.4.7" name="Exodus" provider-name="Exodus">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.exodus" />
-		<import addon="script.exodus.artwork" />
-		<import addon="script.exodus.metadata" />
-		<import addon="script.module.urlresolver" />
-		<import addon="script.module.requests" />
-		<import addon="script.module.exoscrapers" />
-		<import addon="script.module.metahandler" version="1.0.0" />
-		<import addon="repository.kodibae" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" start="startup" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Exodus</summary>
-		<description lang="en">Please visit [COLOR blue]www.exodusvpn.com[/COLOR] for Exodus support and assistance! Kindly note that Exodus is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-		<description lang="de">Bitte besuche [COLOR blue]www.exodusvpn.com[/COLOR] für Unterstützung und Fragen zu Exodus! Beachte dabei, dass Exodus nicht offizieller Teil des Media Players ist den du gerade verwendest und daher nicht von dem offiziellen Support-Kanäle abgedeckt wird, dieses Addon hat nichts zu tun mit dem Media-Player selbst, noch ist es dafür beabsichtigt, es handelt sich hierbei lediglich um ein Drittanbieter-Anwendung die dem System hinzugefügt wurde.</description>
-		<disclaimer lang="de">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
-		<description lang="fr">SVP visitez [COLOR blue]www.exodusvpn.com[/COLOR] pour avoir de l'aide sur Exodus. Prenez note qu'Exodus n'est pas une partie intégrante de votre outil de visionnement multimedia et SVP ne le mentionnez pas dans les media sociaux officiels, cet addiciel n'a rien a voir avec votre lecteur multimedia lui même, c'est simplement un addiciel qui a été ajouté à votre système.</description>
-		<disclaimer lang="fr">L'auteur n'héberge pas ou ne distribue pas le contenu qui vous est affiché avec cet addiciel. L'auteur n'a pas d'alliance avec les distributeurs de contenu.</disclaimer>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-		<website>https://www.exodusvpn.com/</website>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-    			<screenshot></screenshot>
-		</assets>
-		<news></news>
-	</extension>
-</addon>
-
-<addon id="plugin.video.exodusredux" version="2.0.3a" name="Exodus Redux" provider-name="I-A-C">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.exodusredux" />
-		<import addon="script.exodusredux.artwork" />
-		<import addon="script.exodusredux.metadata" />
-		<import addon="script.module.resolveurl" />
-		<import addon="script.module.requests" />
-<!--		<import addon="script.module.lambdascrapers" />-->
-		<import addon="script.module.openscrapers" />
-		<import addon="script.module.metahandler" version="1.0.0" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" start="startup" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Exodus Redux</summary>
-		<description lang="en">[B]Exodus Redux[/B][CR] [B]***OpenScrapers Edition***[/B][CR][CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
-		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-    			<screenshot></screenshot>
-		</assets>
-		<news></news>
-	</extension>
-</addon>
-
 <addon id="plugin.video.exyuzdvideoteka" name="[B][I][COLOR blue]ZD Ex-Yu videoteka[/COLOR][/I][/B]" version="1.3" provider-name="ZBTH">
     <requires>
     </requires>
@@ -1216,82 +1122,6 @@
         <summary>f4mTester</summary>
         <description></description>
         <platform>all</platform>
-    </extension>
-</addon>
-
-<addon id="plugin.video.fen" version="1.6.11" name="Fen" provider-name="Tiki">
-    <requires>
-        <import addon="script.module.requests" version="2.3.0"/>
-        <import addon="script.module.beautifulsoup4" version="0.6.0"/>
-        <import addon="script.tiki.artwork" version="1.0.0"/>
-        <import addon="script.module.tikimeta" version="1.0.0" />
-        <import addon="script.module.openscrapers"/>
-        <import addon="script.module.resolveurl" version="1.0.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="resources/lib/fen.py">
-        <provides>video audio</provides>
-    </extension>
-    <extension point="xbmc.service" library="resources/lib/services.py" start="startup"/>
-    <extension point="xbmc.python.module" library="resources/lib/"/>
-    <extension point="xbmc.addon.metadata">
-        <summary>
-            Specializes in Furk and Easynews.
-        </summary>
-        <description>
-Specializes in Furk and Easynews(web) account access.
-Also utilizes Openscrapers for those without a Furk or Easynews(web) account.
-Please Note: This add-on is NOT an Exodus fork, and as such will behave differently to an Exodus fork.
-        </description>
-        <platform>all</platform>
-        <disclaimer>
-        </disclaimer>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.png</fanart>
-        </assets>
-        <news>
-INFO: For latest changes see Changelog within Tools of add-on.
-        </news>
-    </extension>
-</addon>
-
-<addon id="plugin.video.kodipopcorntime" name="KODI Popcorn Time" version="1.7.4" provider-name="Markop159">
-    <requires>
-        <import addon="xbmc.python" version="2.14.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="addon.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <reuselanguageinvoker>false</reuselanguageinvoker>
-        <platform>all</platform>
-        <website><![CDATA[https://markop159.github.io/KodiPopcornTime/]]></website>
-        <forum><![CDATA[http://forums.tvaddons.ag/addon-releases/47568-kodi-popcorn-time]]></forum>
-        <source><![CDATA[https://github.com/Diblo/KODI-Popcorn-Time]]></source>
-        <license><![CDATA[GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007]]></license>
-        <summary lang="de"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
-        <summary lang="en"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
-        <summary lang="es"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
-        <summary lang="fr"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
-        <summary lang="hr"><![CDATA[Trenutačno gledajte filmove, TV Serije i Anime.]]></summary>
-        <summary lang="zh"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
-        <summary lang="nl"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
-        <summary lang="pl"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
-        <summary lang="pt"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
-        <summary lang="pt_BR"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
-        <summary lang="sl"><![CDATA[Takojšnji ogled Filmov, TV Serij ter Anime.]]></summary>
-        <description lang="de"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
-        <description lang="en"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
-        <description lang="es"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
-        <description lang="fr"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
-        <description lang="hr"><![CDATA[Sa KODI Popcorn Time možete pretraživati filmove, TV serije i Anime koje možete odmah gledati u KODIJU. NAPOMENA: KODI Popcorn Time će nastaviti dijeliti sadržaj dok gledate film, TV seriju ili Anime.]]></description>
-        <description lang="zh"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
-        <description lang="nl"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
-        <description lang="pl"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
-        <description lang="pt"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
-        <description lang="pt_BR"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
-        <description lang="sl"><![CDATA[Z KODI Popcorn Time lahko iščete Filme, TV Serije in Anime, ki si jih lahko takoj ogledaš v KODI-ju. OPOMBA: KODI Popcorn Time med ogledom filmov, TV Serij ter Anime deli video dalje tudi drugim uporabnikom.]]></description>
     </extension>
 </addon>
 
@@ -1340,37 +1170,6 @@ INFO: For latest changes see Changelog within Tools of add-on.
   </extension>
 </addon>
 
-<addon id="plugin.video.liveinzadar" name="Live in Zadar Build" version="1.0.1" provider-name="Zadar Build">
-    <requires>
-    </requires>
-    <extension point="xbmc.python.pluginsource"
-               library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary>Live in ZadarBuild</summary>
-        <description>Live in ZadarBuild je KODI Addon za gledanje live TV programa. Autor ovog addona (programskog dodatka) nema nikakav autorski materijal unutar ovog addona. Koristi linkove koji su dostupni na internetu, te ne snosi nikakvu odgovornost za njegovu upotrebu.</description>
-    </extension>
-</addon>
-
-<addon id="plugin.video.nicke85" name="nicke85 free list" version="1.2.3" provider-name="Siniša Nićetin Nićke">
-  <requires>
-	  <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-	<summary lang="en">nicke85 free list</summary>
-	<description lang="en">nicke85 free list</description>
-	<platform>all</platform>
-	<news>
-autor: Siniša Nićetin Nićke
-	</news>
-  </extension>
-</addon>
-
 <addon id="plugin.video.spotitube" name="Youtube Music ZD" version="2.1.7~alpha1zd" provider-name="realvito (inspired by L0RE) and ZadarTeam">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
@@ -1416,37 +1215,6 @@ autor: Siniša Nićetin Nićke
         <summary>Vukovar u srcu TV</summary>
         <description>Vukovar u srcu TV je KODI Addon za gledanje live TV programa. Autor ovog addona (programskog dodatka) nema nikakav autorski materijal unutar ovog addona. Koristi linkove koji su dostupni na internetu, te ne snosi nikakvu odgovornost za njegovu upotrebu.</description>
     </extension>
-</addon>
-
-<addon id="plugin.video.Yoda" version="1.1.4" name="[COLORgreen]Yoda[/COLOR]" provider-name="Yoda">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.Yoda" />
-		<import addon="script.Yoda.artwork" version="1.0.5" />
-		<import addon="script.Yoda.metadata" version="1.0.0" />
-		<import addon="script.module.resolveurl" version="5.0.0" />
-		<import addon="script.module.requests" />
-		<import addon="script.module.metahandler" version="1.0.0" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="Yoda.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" start="startup" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">[COLORlime]Yoda[/COLOR]</summary>
-		<description lang="en">[COLOR aqua]Yoda Movies and TV. This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels. The author does not host any of the content in this addon and takes no responsibility for content found[/COLOR].</description>
-		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-		<assets>
-			<icon>icon.jpg</icon>
-			<fanart>fanart.png</fanart>
-    			<screenshot>resources/screenshots/screenshot-01.png</screenshot>
-    			<screenshot>resources/screenshots/screenshot-02.png</screenshot>
-    			<screenshot>resources/screenshots/screenshot-03.png</screenshot>
-		</assets>
-		<news></news>
-	</extension>
 </addon>
 
 <addon id="plugin.video.youtube" name="YouTube ZD" version="6.8.4~alpha3zd" provider-name="anxdpanic, bromix and ZadarTeam">
@@ -2100,54 +1868,6 @@ http://zadarbuild.com.hr
   <extension library="lib" point="xbmc.python.module" />
 </addon>
 
-<addon id="script.exodus.artwork" version="1.0.8" name="Exodus Artwork" provider-name="Exodus">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Themes for the Exodus Addon</summary>
-		<description></description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="script.exodus.metadata" version="1.0.3" name="Exodus Metadata" provider-name="Exodus">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Metadata for the Exodus Addon</summary>
-		<description>Metadata for Exodus are maintained separately to make distribution of the the addon itself easier/faster.</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="script.exodusredux.artwork" version="1.0.2" name="Exodus Redux Artwork" provider-name="I-A-C">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Themes for the Exodus Redux Addon</summary>
-		<description></description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="script.exodusredux.metadata" version="1.0.2" name="Exodus Redux Metadata" provider-name="I-A-C">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Metadata for the Exodus Redux Addon</summary>
-		<description>Metadata for Exodus Redux are maintained separately to make distribution of the the addon itself easier/faster.</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="script.maverick.pairwith"
   name="Maverick Pair With"
   version="1.6"
@@ -2349,30 +2069,6 @@ http://zadarbuild.com.hr
     <source>https://github.com/Razzeee/script.module.dateutil</source>
     <email></email>
   </extension>
-</addon>
-
-<addon id="script.module.exodus" name="Exodus Module" version="1.7" provider-name="Exodus">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.beautifulsoup4"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Exodus</summary>
-	</extension>
-</addon>
-
-<addon id="script.module.exodusredux" name="Exodus Redux Module" version="1.0.9" provider-name="I-A-C">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.beautifulsoup4"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Exodus Redux</summary>
-	</extension>
 </addon>
 
 <addon id="script.module.future"
@@ -3131,18 +2827,6 @@ Documentation: https://github.com/tamland/kodi-plugin-routing</description>
     </extension>
 </addon>
 
-<addon id="script.module.Yoda" name="[COLORgreen]Yoda Module[/COLOR]" version="1.00.041" provider-name="S-media">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.requests" />
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Yoda</summary>
-	</extension>
-</addon>
-
 <addon id="script.module.youtube.dl" name="youtube-dl Control" version="18.1107.0" provider-name="Rick Phillips (ruuk)">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
@@ -3276,21 +2960,6 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="script.uranus.artwork" version="2018.02.20" name="Uranus Artwork" provider-name="Uranus">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.script" library="default.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Themes for the Uranus Addon</summary>
-		<description></description>
-		<platform>all</platform>
-		<news>Added new artwork</news>
-	</extension>
-</addon>
-
 <addon id="script.video.F4mProxy" name="F4mProxy" version="2.8.8zd" provider-name="Shani - edit by ZadarTeam">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
@@ -3305,30 +2974,6 @@ This is a Non-profit resource, organized solely for educational purposes which i
         <summary lang="en">Proxy for F4m</summary>
         <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
     </extension>
-</addon>
-
-<addon id="script.Yoda.artwork" version="1.0.6" name="[COLORgreen]Yoda Artwork[/COLOR]" provider-name="S">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Themes for the Yoda Addon</summary>
-		<description></description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="script.Yoda.metadata" version="1.0.3" name="[COLORgreen]Yoda Metadata[/COLOR]" provider-name="S">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Metadata for the Yoda Addon</summary>
-		<description>Metadata for Yoda are maintained separately to make distribution of the the addon itself easier/faster.</description>
-		<platform>all</platform>
-	</extension>
 </addon>
 
 <addon id="service.subtitles.opensubtitles_by_opensubtitles" name="OpenSubtitles.org by OpenSubtitles" version="5.2.15" provider-name="amet, opensubtitles">
