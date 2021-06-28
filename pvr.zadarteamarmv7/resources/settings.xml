@@ -8,7 +8,7 @@
   
   <category label="31000">
     <setting id="sep1_0" type="lsep" label="[COLORred]Zadar Team Build Hrvatska[/COLOR]" />
-    <setting id="mac_0" type="text" label="30101" option="" default="00:1A:79:59:4F:34" visible="hidden" />
+    <setting id="mac_0" type="text" label="30101" option="" default="00:1A:79:5F:D9:90" visible="hidden" />
     <setting id="server_0" type="text" label="30102" option="" default="http://mag.you24.online:8080/c/" visible="hidden" />
     <setting id="time_zone_0" type="text" label="30103" default="Europe/Zagreb" visible="hidden" />
     <setting id="login_0" type="text" label="30105" default=""visible="hidden" />
@@ -48,8 +48,8 @@
   
     <category label="33000">
 	<setting id="sep1_2" type="lsep" label="[COLORred]Zadar Team Build Hrvatska[/COLOR]" />
-    <setting id="mac_2" type="text" label="30101" option="hidden" default="00:1A:79:44:C3:E7" visible="hidden" />
-    <setting id="server_2" type="text" label="30102" option="hidden" default="http://livego.club:8080/c/" visible="hidden" />
+    <setting id="mac_2" type="text" label="30101" option="hidden" default="00:1A:79:4D:5D:1E" visible="hidden" />
+    <setting id="server_2" type="text" label="30102" option="hidden" default="http://mag.you24.online:8080/c/" visible="hidden" />
     <setting id="time_zone_2" type="text" label="30103" default="Europe/Zagreb" visible="hidden" />
     <setting id="login_2" type="text" label="30105" default="" visible="hidden" />
     <setting id="password_2" type="text" option="hidden" label="30106" default="" visible="hidden" />
@@ -68,8 +68,8 @@
 
     <category label="34000">
 	<setting id="sep1_3" type="lsep" label="[COLORred]Zadar Team Build Hrvatska[/COLOR]" />
-    <setting id="mac_3" type="text" label="30101" option="hidden" default="00:1A:79:19:4F:96" visible="hidden" />
-    <setting id="server_3" type="text" label="30102" option="hidden" default="http://kingsiptv.streamtv.to:8080/c/" visible="hidden" />
+    <setting id="mac_3" type="text" label="30101" option="hidden" default="00:1A:79:41:66:27" visible="hidden" />
+    <setting id="server_3" type="text" label="30102" option="hidden" default="http://mag.you24.online:8080/c/" visible="hidden" />
     <setting id="time_zone_3" type="text" label="30103" default="Europe/Zagreb" visible="hidden" />
     <setting id="login_3" type="text" label="30105" default="" visible="hidden" />
     <setting id="password_3" type="text" option="hidden" label="30106" default="" visible="hidden" />
@@ -88,8 +88,8 @@
 
    <category label="35000">
     <setting id="sep1_4" type="lsep" label="[COLORred]Zadar Team Build Hrvatska[/COLOR]" />
-    <setting id="mac_4" type="text" label="30101" option="hidden" default="00:1A:79:5D:04:5F" visible="hidden" />
-    <setting id="server_4" type="text" label="30102" option="hidden" default="http://toptvtelevizija.co:2082/c/" visible="hidden" />
+    <setting id="mac_4" type="text" label="30101" option="hidden" default="00:1A:79:18:50:70" visible="hidden" />
+    <setting id="server_4" type="text" label="30102" option="hidden" default="http://mag.you24.online:8080/c/" visible="hidden" />
     <setting id="time_zone_4" type="text" label="30103" default="Europe/Zagreb" visible="hidden" />
     <setting id="login_4" type="text" label="30105" default="" visible="hidden" />
     <setting id="password_4" type="text" option="hidden" label="30106" default="" visible="hidden" />
