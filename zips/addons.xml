@@ -1577,7 +1577,7 @@
 <import addon="kodi.binary.instance.pvr" minversion="7.1.0" version="7.1.0"/></requires>
   <extension
     point="kodi.pvrclient"
-    library_android="pvr.stalker.dll"/>
+    library_windows="pvr.stalker.dll"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="de_DE">PVR Client um Kodi mit ZadarTeam Middleware zu verbinden</summary>
     <summary lang="en_GB">PVR Client to connect Kodi to ZadarTeam Middleware</summary>
@@ -1664,7 +1664,7 @@
 <import addon="kodi.binary.instance.pvr" minversion="7.1.0" version="7.1.0"/></requires>
   <extension
     point="kodi.pvrclient"
-    library_android="pvr.stalker.dll"/>
+    library_windows="pvr.stalker.dll"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="de_DE">PVR Client um Kodi mit ZadarTeam Middleware zu verbinden</summary>
     <summary lang="en_GB">PVR Client to connect Kodi to ZadarTeam Middleware</summary>
