@@ -1,3 +1,0 @@
-v1.0.3
-Finalni popravak za Kodi19
-ZadarTeamBuild
