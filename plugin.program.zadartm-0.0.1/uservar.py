@@ -17,7 +17,7 @@ ADDONTITLE = '[COLOR red][I][B]Zadar TM [COLOR deepskyblue][I] Wizard[/I][/B][/C
 BUILDERNAME = 'Zadar TM Wizard '
 EXCLUDES = [ADDON_ID, 'repository.openwizard']
 # Text File with build info in it.
-BUILDFILE = 'http://zadarbuild.com.hr/buildfiles/BUILD.txt'
+BUILDFILE = https://zadarbuild.com.hr/BuildzipZD/KODI-19/'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK = 0
@@ -94,7 +94,7 @@ AUTOUPDATE = 'Yes'
 #        Auto Install Repo If Not Installed             #
 #########################################################
 # Enable Auto Install 'Yes' or 'No'
-AUTOINSTALL = 'No'
+AUTOINSTALL = 'Yes'
 # Addon ID for the repository
 REPOID = 'repository.openwizard'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
