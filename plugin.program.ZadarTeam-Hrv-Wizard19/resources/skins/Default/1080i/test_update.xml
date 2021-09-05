@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<coordinates>
+		<left>380</left>
+		<top>145</top>
+	</coordinates>
+	<controls>
+		<control type="group">
+			<control type="image">
+				<posx>-380</posx>
+				<posy>-650</posy>
+				<width>1920</width>
+				<height>1680</height>
+				<texture border="2" colordiffuse="black">Background/shadow_mask_v.png</texture>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>1200</width>
+				<height>600</height>
+				<texture border="2" colordiffuse="FF997300">Background/ContentPanel.png</texture>
+			</control>
+			<control type="image" id="101">
+				<left>10</left>
+				<top>50</top>
+				<width>1180</width>
+				<height>520</height>
+				<texture border="2" diffuse="Background/details_back_white.png" colordiffuse="8A997300"/>
+			</control>
+			<control type="label" id="102">
+				<description>header label</description>
+				<top>35</top>
+				<left>123</left>
+				<width>950</width>
+				<height>40</height>
+				<font>font14</font>
+				<label/>
+				<align>center</align>
+			</control>
+			<control type="image" id="103">
+				<left>-10</left>
+				<top>350</top>
+				<width>300</width>
+				<height>300</height>
+				<aspectratio>keep</aspectratio>
+				<texture colordiffuse="66ffffff"/>
+			</control>
+			<control type="textbox" id="104">
+				<left>340</left>
+				<top>90</top>
+				<width>570</width>
+				<height>300</height>
+				<font>font13</font>
+				<align>center</align>
+				<aligny>top</aligny>
+			</control>
+			<control type="button" id="105">
+				<left>1144</left>
+				<top>30</top>
+				<width>30</width>
+				<height>30</height>
+				<visible>true</visible>
+				<colordiffuse>FFFFFFFF</colordiffuse>
+				<texturefocus colordiffuse="red">Background/close.png</texturefocus>
+				<texturenofocus colordiffuse="grey">Background/close.png</texturenofocus>
+				<onleft>106</onleft>
+				<onright>105</onright>
+				<onclick>close</onclick>
+			</control>
+			<control type="button" id="106">
+				<left>1144</left>
+				<top>30</top>
+				<width>30</width>
+				<height>30</height>
+				<visible>true</visible>
+				<colordiffuse>FFFFFFFF</colordiffuse>
+				<texturefocus colordiffuse="red">Background/close.png</texturefocus>
+				<texturenofocus colordiffuse="grey">Background/close.png</texturenofocus>
+				<onright>106</onright>
+				<onleft>105</onleft>
+				<onclick>close</onclick>
+			</control>
+		</control>
+	</controls>
+</window>

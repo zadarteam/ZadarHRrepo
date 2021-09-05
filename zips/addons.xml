@@ -946,34 +946,32 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.ZTB-HR.Wizard19" name="[COLOR darkcyan]Zadar [/COLOR]Wizard" version="623.1" provider-name="OpenKD">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0" />
-        <import addon="script.module.requests" />
-        <import addon="script.module.six" />
-        <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
-        <import addon="script.speedtester" optional="true" version="1.1.2" />
-    </requires>
-
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-    </extension>
-
-    <extension point="xbmc.service" library="startup.py" start="startup" />
-
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">[COLOR darkcyan]Zadar [/COLOR]Wizard</summary>
-        <description lang="en"></description>
-        <platform>all</platform>
-        <reuselanguageinvoker>false</reuselanguageinvoker>
-        <source>http://zadarbuild.com.hr/</source>
-        <news>
-        </news>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.png</fanart>
-        </assets>
-    </extension>
+<addon id="plugin.program.ZadarTeam-Hrv-Wizard19" name="[COLOR red]Zadar[/COLOR][COLOR white]Team[/COLOR][COLOR blue]Wizard[/COLOR]" version="0.1.0" provider-name="ZadarTeam">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.requests" version="2.22.0+matrix.1"/>
+		<import addon="script.module.six" version="1.14.0+matrix.2"/>
+		<import addon="resource.language.pl_pl" version="9.0.21"/>
+		<import addon="script.kodi.loguploader" version="1.0.3"/>
+		<import addon="script.module.unidecode" version="1.1.1+matrix.2"/>
+		<import addon="script.module.simpleeval" version="0.9.10"/>
+		<import addon="script.module.future" version="0.18.2+matrix.1"/>
+		<import addon="script.kodi.android.update" optional="true" version="1.1.7"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="startup.py" start="startup"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">[COLOR red]Zadar[/COLOR][COLOR white]Team[/COLOR][COLOR blue]Wizard[/COLOR]</summary>
+		<platform>all</platform>
+		<reuselanguageinvoker>false</reuselanguageinvoker>
+		<source></source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
 </addon>
 
 <addon id="plugin.video.adrianaeurope" name="[B][I][COLOR mediumblue]Adriana Europe[/COLOR][/I][/B]" version="1.1.0" provider-name="KZBH">

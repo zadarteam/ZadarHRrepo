@@ -1,0 +1,538 @@
+# Kodi Media Center language file
+# Addon Name: Polish Team Wizard
+# Addon id: plugin.program.PLTW
+# Addon Provider: Unfledged
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC Addons\n"
+"Report-Msgid-Bugs-To: xxxxx@xxxx.com\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Ja\n"
+"Language-Team: English (http://www.transifex.com/projects/p/xbmc-addons/language/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+##==================== empty 32038 to 32000 ======================================
+msgctxt "#32037"
+msgid "Update avaliable for installed build:[COLOR red][B]{1}[/B][/COLOR]\n\nCurrent Version: [COLOR blue][B]v{3}[/B][/COLOR]\nLatest Version: [COLOR blue][B]v{5}[/B][/COLOR]\n\n[COLOR {6}]*Recommended: Fresh install[/COLOR][CR][CR]—[B] Fresh:[/B] A clean installation cleans everything[CR]—[B] Normal:[/B] Installs a build on top of an existing build[CR]—[B] Deley:[/B] Postpone the installation until the next reboot"
+msgstr ""
+
+msgctxt "#32038"
+msgid "Running latest version of installed build: [COLOR red][B]{1}[/B][/COLOR]\n\nCurrent Version: [COLOR blue][B]v{3}[/B][/COLOR]\nLatest Version: [COLOR blue][B]v{5}[/B][/COLOR]\n\n[COLOR {6}]*Recommended: Fresh install[/COLOR][CR][CR]—[B] Fresh:[/B] A clean installation cleans everything[CR]—[B] Normal:[/B] Installs a build on top of an existing build[CR]—[B] Deley:[/B] Postpone the installation until the next reboot"
+msgstr ""
+
+# \n\nFacebook : https:// \n\n — Extra-1 \n — Exrta-2 \n — Extra-3 \n — Extra-4 \n — Extra-5
+msgctxt "#32039"
+msgid "Thank you for choosing [B]Polish Team Wizads Wizard[/B]®. \nContact via forum \n[B]https://polishteam.ru/forum/ [/B]®"
+msgstr ""
+
+msgctxt "#32040"
+msgid "Next Time Wizard Log Cleaned: "
+msgstr ""
+
+msgctxt "#32041"
+msgid "Keep how many lines of wizard.log?"
+msgstr ""
+
+msgctxt "#32042"
+msgid "Max file size for wizard.log?"
+msgstr ""
+
+msgctxt "#32043"
+msgid "7"
+msgstr ""
+
+msgctxt "#32044"
+msgid "3"
+msgstr ""
+
+msgctxt "#32045"
+msgid "2"
+msgstr ""
+
+msgctxt "#32046"
+msgid "1"
+msgstr ""
+
+msgctxt "#32047"
+msgid "Keep how many days of wizard.log?"
+msgstr ""
+
+msgctxt "#32048"
+msgid "Polish Team Wizard"
+msgstr ""
+
+msgctxt "#32049"
+msgid "Enable logging in to the forum"
+msgstr ""
+
+msgctxt "#32050"
+msgid "Login: "
+msgstr ""
+
+msgctxt "#32051"
+msgid "Password: "
+msgstr "Hasło: "
+
+msgctxt "#32052"
+msgid "Build Options"
+msgstr "Opcje Buildów"
+
+msgctxt "#32053"
+msgid "Current Build: "
+msgstr ""
+
+msgctxt "#32054"
+msgid "Installed Build: "
+msgstr ""
+
+msgctxt "#32055"
+msgid "Installed Version: "
+msgstr ""
+
+msgctxt "#32056"
+msgid "Current Theme: "
+msgstr ""
+
+msgctxt "#32057"
+msgid "Latest Version: "
+msgstr ""
+
+msgctxt "#32058"
+msgid "Next check for build update: "
+msgstr ""
+
+msgctxt "#32059"
+msgid "Disable Update Notification"
+msgstr ""
+
+msgctxt "#32060"
+msgid "Show Builds:"
+msgstr ""
+
+msgctxt "#32061"
+msgid "Show Krypton (v17.0) Builds"
+msgstr ""
+
+msgctxt "#32062"
+msgid "Show Leia (v18.0) Builds"
+msgstr ""
+
+msgctxt "#32063"
+msgid "Show Matrix (v19.0) Builds"
+msgstr ""
+
+msgctxt "#32064"
+msgid "Do not separate based off version"
+msgstr ""
+
+msgctxt "#32065"
+msgid "First Install"
+msgstr ""
+
+msgctxt "#32066"
+msgid "Time Startup Script Last Run"
+msgstr ""
+
+msgctxt "#32067"
+msgid "Build Installed"
+msgstr ""
+
+msgctxt "#32068"
+msgid "Extract Build %"
+msgstr ""
+
+msgctxt "#32069"
+msgid "Extract Error"
+msgstr ""
+
+msgctxt "#32070"
+msgid "Default Skin: "
+msgstr ""
+
+msgctxt "#32071"
+msgid "Default Skin Name: "
+msgstr ""
+
+msgctxt "#32072"
+msgid "Ignore default skin check: "
+msgstr ""
+
+msgctxt "#32073"
+msgid "Default lookandfeel.enablerssfeeds: "
+msgstr ""
+
+msgctxt "#32074"
+msgid "Default lookandfeel.font: "
+msgstr ""
+
+msgctxt "#32075"
+msgid "Default lookandfeel.rssedit: "
+msgstr ""
+
+msgctxt "#32076"
+msgid "Default lookandfeel.skincolors: "
+msgstr ""
+
+msgctxt "#32077"
+msgid "Default lookandfeel.skintheme: "
+msgstr ""
+
+msgctxt "#32078"
+msgid "Default lookandfeel.skinzoom: "
+msgstr ""
+
+msgctxt "#32079"
+msgid "Default lookandfeel.soundskin:"
+msgstr ""
+
+msgctxt "#32080"
+msgid "Default lookandfeel.startupwindow: "
+msgstr ""
+
+msgctxt "#32081"
+msgid "Default lookandfeel.stereostrength: "
+msgstr ""
+
+msgctxt "#32082"
+msgid "Default general.addonupdate: "
+msgstr ""
+
+msgctxt "#32083"
+msgid "Maintenance"
+msgstr ""
+
+msgctxt "#32084"
+msgid "Upload Log: "
+msgstr ""
+
+msgctxt "#32085"
+msgid "Include Kodi.Old.Log"
+msgstr ""
+
+msgctxt "#32086"
+msgid "Include Wizard Logs"
+msgstr ""
+
+msgctxt "#32087"
+msgid "Include Kodi Crash Logs"
+msgstr ""
+
+msgctxt "#32088"
+msgid "Maintenance Menu: "
+msgstr ""
+
+msgctxt "#32089"
+msgid "Choose Backup Storage Location"
+msgstr ""
+
+msgctxt "#32090"
+msgid "Auto Clean On Startup: "
+msgstr ""
+
+msgctxt "#32091"
+msgid "Enable Auto Clean"
+msgstr ""
+
+msgctxt "#32092"
+msgid "Clear Cache on Startup"
+msgstr ""
+
+msgctxt "#32093"
+msgid "Clear Packages on Startup"
+msgstr ""
+
+msgctxt "#32094"
+msgid "Clear Week Old Thumbnails on Startup"
+msgstr ""
+
+msgctxt "#32095"
+msgid "How often would you like to Auto Clean on Startup?"
+msgstr ""
+
+msgctxt "#32096"
+msgid "Next Auto Clean Up: "
+msgstr ""
+
+msgctxt "#32097"
+msgid "Clearing Video Cache: "
+msgstr ""
+
+msgctxt "#32098"
+msgid "Include Video Addons in Clear Cache: "
+msgstr ""
+
+msgctxt "#32099"
+msgid "Include All Addons: "
+msgstr ""
+
+msgctxt "#32100"
+msgid "Include Exodus Redux DB: "
+msgstr ""
+
+msgctxt "#32101"
+msgid "Include Gaia Cache DB: "
+msgstr ""
+
+msgctxt "#32102"
+msgid "Include NuMb3r5 Cache DB: "
+msgstr ""
+
+msgctxt "#32103"
+msgid "Include Scrubs v2 Cache DB: "
+msgstr ""
+
+msgctxt "#32104"
+msgid "Include Seren Cache DB: "
+msgstr ""
+
+msgctxt "#32105"
+msgid "Include THE CREW Cache DB: "
+msgstr ""
+
+msgctxt "#32106"
+msgid "Include Venom Cache DB: "
+msgstr ""
+
+msgctxt "#32107"
+msgid "Always"
+msgstr ""
+
+msgctxt "#32108"
+msgid "Daily"
+msgstr ""
+
+msgctxt "#32109"
+msgid "3 Days"
+msgstr ""
+
+msgctxt "#32110"
+msgid "Weekly"
+msgstr ""
+
+msgctxt "#32111"
+msgid "Monthly"
+msgstr ""
+
+##============================= empty 32112 to 32196 ==========================================
+
+msgctxt "#32197"
+msgid "Install Settings"
+msgstr ""
+
+msgctxt "#32198"
+msgid "APKs"
+msgstr ""
+
+msgctxt "#32199"
+msgid "Open Kodi Android Updater Settings"
+msgstr ""
+
+msgctxt "#32200"
+msgid "Choose Download Location"
+msgstr ""
+
+msgctxt "#32201"
+msgid "Save Data When Installing Build:"
+msgstr ""
+
+msgctxt "#32202"
+msgid "Keep My Trakt Data"
+msgstr ""
+
+msgctxt "#32203"
+msgid "Last Time Trakt Data Saved:"
+msgstr ""
+
+msgctxt "#32204"
+msgid "Keep My Debrid Data"
+msgstr ""
+
+msgctxt "#32205"
+msgid "Last Time Debrid Data Saved:"
+msgstr ""
+
+msgctxt "#32206"
+msgid "Keep My Login Data"
+msgstr ""
+
+msgctxt "#32207"
+msgid "Last Time Login Data Saved:"
+msgstr ""
+
+msgctxt "#32208"
+msgid "Keep Settings When Installing Build:"
+msgstr ""
+
+msgctxt "#32209"
+msgid "Keep My Favourites"
+msgstr ""
+
+msgctxt "#32210"
+msgid "Keep My Sources"
+msgstr ""
+
+msgctxt "#32211"
+msgid "Keep My Profiles"
+msgstr ""
+
+msgctxt "#32212"
+msgid "Keep My playercorefactory.xml"
+msgstr ""
+
+msgctxt "#32213"
+msgid "Keep My guisettings.xml"
+msgstr ""
+
+msgctxt "#32214"
+msgid "Keep My AdvancedSettings.xml"
+msgstr ""
+
+msgctxt "#32215"
+msgid "Keep Installed Repositories"
+msgstr ""
+
+msgctxt "#32216"
+msgid "Keep Super Favourites"
+msgstr ""
+
+msgctxt "#32217"
+msgid "Keep My Whitelist Addons"
+msgstr ""
+
+msgctxt "#32218"
+msgid "Keep My Sources.xml"
+msgstr ""
+
+msgctxt "#32219"
+msgid "View Settings"
+msgstr ""
+
+msgctxt "#32220"
+msgid "Show Developer Menu: "
+msgstr ""
+
+msgctxt "#32221"
+msgid "Show Adult Addons: "
+msgstr ""
+
+msgctxt "#32222"
+msgid "Enable Auto View"
+msgstr ""
+
+msgctxt "#32223"
+msgid "View Type"
+msgstr ""
+
+msgctxt "#32224"
+msgid "Notification Window on Startup: "
+msgstr ""
+
+msgctxt "#32225"
+msgid "Disable Notification on Startup"
+msgstr ""
+
+msgctxt "#32226"
+msgid "Latest Notification"
+msgstr ""
+
+msgctxt "#32227"
+msgid "Dismiss or Remind me later"
+msgstr ""
+
+msgctxt "#32228"
+msgid "Logging Settings"
+msgstr ""
+
+msgctxt "#32229"
+msgid "Event Logging in the Wizard: "
+msgstr ""
+
+msgctxt "#32230"
+msgid "What level would you like the wizard to log?"
+msgstr ""
+
+msgctxt "#32231"
+msgid "No Logging"
+msgstr ""
+
+msgctxt "#32232"
+msgid "Normal Logging"
+msgstr ""
+
+msgctxt "#32233"
+msgid "Full Logging"
+msgstr ""
+
+msgctxt "#32234"
+msgid "Enable Wizard Logging: "
+msgstr ""
+
+msgctxt "#32235"
+msgid "Automatically Clean up Wizard Log: "
+msgstr ""
+
+msgctxt "#32236"
+msgid "How would you like to clean up wizard.log?"
+msgstr ""
+
+msgctxt "#32237"
+msgid "By Days"
+msgstr ""
+
+msgctxt "#32238"
+msgid "By Size"
+msgstr ""
+
+msgctxt "#32239"
+msgid "By Lines"
+msgstr ""
+
+msgctxt "#32240"
+msgid "Since this is your first time running the wizard, do you want to enable / disable any of the following settings?"
+msgstr ""
+
+msgctxt "#32241"
+msgid "VIP account settings and Buffer size"
+msgstr ""
+
+msgctxt "#32242"
+msgid "Currently no build installed from [COLOR FF66ccff][B]{0}[/B][/COLOR].\n\nSelect 'Build Menu' to install a Community Build from us or 'Ignore' to never see this message again.\n\nThank you for choosing [COLOR FF66ccff][B]{1}[/B][/COLOR]."
+msgstr ""
+
+msgctxt "#32243"
+msgid "Post this url or scan QRcode[CR] for your [COLOR {0}]{1}[/COLOR] together with a description of the problem:[COLOR {2}][CR][CR]{3}[/COLOR]"
+msgstr ""
+
+msgctxt "#32244"
+msgid "Enter the log obtained above and describe it in detail[CR]your problem on the [COLOR FF33cc33][B]Polish Team Wizard[/B][/COLOR] website[CR][CR][COLOR FF33cc33][B]https://polishteam.ru/forum/[/B][/COLOR]"
+msgstr "Podaj uzyskany powyżej log i opisz dokładnie[CR]swój problem na stronie [COLOR FF33cc33][B]Polish Team Wizard[/B][/COLOR][CR][CR][COLOR FF33cc33][B]https://polishteam.ru/forum/[/B][/COLOR]"
+
+msgctxt "#32245"
+msgid "[B]Cleaning Tools[/B]"
+msgstr ""
+
+msgctxt "#32246"
+msgid "[B]Addon Tools[/B]"
+msgstr ""
+
+msgctxt "#32247"
+msgid "[B]Logging Tools[/B]"
+msgstr ""
+
+msgctxt "#32248"
+msgid "[B]Misc Maintenance[/B]"
+msgstr ""
+
+msgctxt "#32249"
+msgid "[B]Back up/Restore[/B]"
+msgstr ""
+
+msgctxt "#32250"
+msgid "[B]System Tweaks/Fixes[/B]"
+msgstr ""
+
