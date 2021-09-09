@@ -1008,6 +1008,36 @@
     </extension>
 </addon>
 
+<addon id="plugin.program.ztbh.matrix.wizard" name="[COLOR aqua]ZTBH TEAM WIZARD[/COLOR]" version="0.0.2" provider-name="ZTBH">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
+        <import addon="script.speedtester" optional="true" version="1.1.2" />
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[COLOR aqua]ZTBH TEAM Wizard[/COLOR]</summary>
+        <description lang="en">ZTBH Matrix (Kodi 19) Maintenance Wizard.[CR]Backup/Restore Fixed for Kodi 19</description>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <source></source>
+        <news>Credits to Drinfernoo and Slamious
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="plugin.video.adrianaeurope" name="[B][I][COLOR mediumblue]Adriana Europe[/COLOR][/I][/B]" version="1.1.0" provider-name="KZBH">
     <requires>
     </requires>
