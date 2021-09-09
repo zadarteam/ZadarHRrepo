@@ -946,6 +946,38 @@
   </extension>
 </addon>
 
+<addon id="plugin.program.zadarwizard19" name="[B][I][COLOR azure]ZTBH 19 Wizard[/B][/COLOR][/I]" version="0.0.1" provider-name="ZTBH">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.requests" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Simple 19 Wizard is a lightweight template for installing builds on Kodi 19 Matrix.</summary>
+		<description lang="en_GB">Kodi 19 Wizard</description>
+		<disclaimer lang="en_GB">This Addon contains no content</disclaimer>
+		<language>en</language>
+		<platform>all</platform>
+		<license>GPL-2.0-or-later</license>
+		<forum></forum>
+		<website></website>
+		<email></email>
+		<source></source>
+		<news>2.0.3 - Initial Release
+		</news>
+		<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<banner></banner>
+				<clearlogo></clearlogo>
+				<screenshot></screenshot>
+		</assets>
+	</extension>
+</addon>
+
 <addon id="plugin.program.ZTB-HR.Wizard19" name="[COLOR darkcyan]Zadar [/COLOR]Wizard" version="0.0.2" provider-name="Zd Team">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
