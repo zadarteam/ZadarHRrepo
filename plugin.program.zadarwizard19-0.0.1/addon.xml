@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.zadarwizard19" name="[B][I][COLOR azure]ZTBH 19 Wizard[/B][/COLOR][/I]" version="0.0.1" provider-name="ZTBH">
+<addon id="plugin.program.zadarwizard19" name="[B][I][COLOR indigo]ZTBH 19 Wizard[/COLOR][/B][/I]" version="0.0.1" provider-name="ZTBH">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests" optional="true" />
