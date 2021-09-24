@@ -1305,7 +1305,7 @@
 
 <addon
   id="pvr.zadarteamaarch64mat"
-  version="0.0.2zd"
+  version="0.0.3zd"
   name="ZadarTeam Client for Kodi 19 Matrix"
   provider-name="Zadar Team">
   <requires>
@@ -1392,7 +1392,7 @@
 
 <addon
   id="pvr.zadarteamarmv7mat"
-  version="0.0.2zd"
+  version="0.0.3zd"
   name="ZadarTeam Client for Kodi 19 Matrix"
   provider-name="Zadar Team">
   <requires>
@@ -1479,7 +1479,7 @@
 
 <addon
   id="pvr.zadarteamw64mat"
-  version="0.0.2zd"
+  version="0.0.3zd"
   name="ZadarTeam Client for Kodi 19 Matrix"
   provider-name="Zadar Team">
   <requires>
@@ -1566,7 +1566,7 @@
 
 <addon
   id="pvr.zadarteamwi686mat"
-  version="0.0.2zd"
+  version="0.0.3zd"
   name="ZadarTeam Client for Kodi 19 Matrix"
   provider-name="Zadar Team">
   <requires>
