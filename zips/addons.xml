@@ -1654,7 +1654,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="repository.ZadarHRrepo" name="[COLOR blue]ZadarHR[/COLOR] repo" version="1.3.9.5" provider-name="ZadarTeam">
+<addon id="repository.ZadarHRrepo" name="[COLOR blue]ZadarHR[/COLOR] repo" version="1.3.9.6" provider-name="ZadarTeam">
 	<extension point="xbmc.addon.repository" name="ZadarHRrepo">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
