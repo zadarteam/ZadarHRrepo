@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <category label="LICENCE KEY">
+    <setting id="licence_key" type="text" label="Licence key" default="" />
+    <setting id="mac" type="text" label="Mac" default="" visible='false'/>
+  </category>
+</settings>
