@@ -2319,7 +2319,7 @@ http://zadarbuild.com.hr
   </extension>
 </addon>
 
-<addon id="script.module.refresher" name="VHS PVR Changer" version="1.2.0" provider-name="Razor">
+<addon id="script.module.refresher" name="VHS PVR Changer" version="1.2.1" provider-name="Razor">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests"  />
