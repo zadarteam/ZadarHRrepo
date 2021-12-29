@@ -2335,7 +2335,7 @@ http://zadarbuild.com.hr
 		<language></language>
 		<platform>all</platform>
 	<assets>
-      <icon>icon_image.png</icon>
+      <icon>icon_default.png</icon>
     </assets>
 	</extension>
 </addon>
