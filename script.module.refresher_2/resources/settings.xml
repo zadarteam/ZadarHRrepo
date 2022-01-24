@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <category label="O dodatku">
+    <setting type="text" label="Ovaj dodatak je napravljen isključivo za ZTBH tim" default="" />
+    <setting type="text" label="Dodatak omogućuje brzu izmjenu loše PVR liste" default="" />
+    <setting type="text" label="----------------------------------------------------" default="" />
+    <setting type="text" label="Za korištenje ovog dodatka morate imati ključ" default="" />
+    <setting type="text" label="Ključ možete dobiti besplatno od naših administratora" default="" />
+    <setting type="text" label="----------------------------------------------------" default="" />
+    <setting type="text" label="Ovaj dodatak radi sa i bez VIP licenci" default="" />
+    <setting type="text" label="FREE liste (bez licence) - izmjena FREE liste sa mogućnosti odabira" default="" />
+    <setting type="text" label="VIP liste (sa licencom) - izmjena VIP i FREE listi sa mogućnosti odabira" default="" />
+    <setting type="text" label="----------------------------------------------------" default="" />
+    <setting type="text" label="Ukoliko mjenjate build, reinstalirate Kodi i neke slične radnje" default="" />
+    <setting type="text" label="Obratite se administratorima kako bi vam osvježili vašu licencu ili ključ" default="" />
+    <setting type="text" label="----------------------------------------------------" default="" />
+    <setting type="text" label="Ako imate bilo kakvih pitanja o radu dodatka ili dobijanju licence" default="" />
+    <setting type="text" label="Obratite se administratorima ZTBH teama, dostupni smo na" default="" />
+    <setting type="text" label="      -Facebook-  -Telegram-  -Discord-      " default="" />
+  </category>
+  <category label="Ključ dodatka">
+    <setting id="client_key" type="text" label="Kliknite ovdje za unos ključa !" default="" />
+  </category>
+  <category label="VIP licenca">
+    <setting id="licence_key" type="text" label="Kliknite ovdje za unos VIP licence !" default="" />
+    <setting id="mac" type="text" label="Mac" default="" visible='false'/>
+  </category>
+</settings>
