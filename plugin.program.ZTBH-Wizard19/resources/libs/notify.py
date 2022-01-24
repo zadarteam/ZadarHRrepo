@@ -569,9 +569,9 @@ def firstRunSettings():
 def firstRun():
     class MyWindow(xbmcgui.WindowXMLDialog):
         def __init__(self, *args, **kwargs):
-            self.title = ADDONTITLE
-            self.msg   = "Trenutno nema instaliranog builda iz %s.\n\nOdaberi 'Build Menu' za instalaciju ili 'Ignore' da ne vidite više ovu poruku.\n\nHvala vam što ste odabrali %s." % (ADDONTITLE, ADDONTITLE)
-            self.msg   = self.msg
+            self.title = THEME3 % ADDONTITLE
+            self.msg   = "Currently no build installed from %s.\n\nSelect 'Build Menu' to install a Community Build from us or 'Ignore' to never see this message again.\n\nThank you for choosing %s." % (ADDONTITLE, ADDONTITLE)
+            self.msg   = THEME2 % self.msg
 
         def onInit(self):
             self.image     = 101

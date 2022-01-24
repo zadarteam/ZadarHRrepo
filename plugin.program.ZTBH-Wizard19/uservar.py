@@ -1,11 +1,168 @@
-# Python code obfuscated by www.development-tools.net 
- 
+import os, xbmc, xbmcaddon
+import binascii
+#########################################################
+### User Edit Variables #################################
+#########################################################
+# Enable/Disable the text file caching with 'Yes' or 'No' and age being how often it rechecks in minutes
+CACHETEXT      = 'Yes'
+CACHEAGE       = 30
+ADDON_ID       = xbmcaddon.Addon().getAddonInfo('id')
+ADDONTITLE     = 'ZTBH Wizard'
+BUILDERNAME    = 'ZTBH'
+#########################Make sure to change the repo to yours!!!!
+EXCLUDES       = [ADDON_ID, 'roms', 'My_Builds', 'backupdir', 'script.module.kodi-six', 'script.module.six']
+BUILDFILE      = 'https://smartakus.hr/builds/builds.txt'
+UPDATECHECK    = 0
+APKFILE        = 'http://'
+YOUTUBETITLE   = 'FTG Help Videos' 
+YOUTUBEFILE    = 'http://'
+ADDONFILE      = 'http://'
+ADVANCEDFILE   = 'http://'
+ROMPACK        = 'http://'
+EMUAPKS        = 'http://'
+ADDONPACK      = 'http://'
+PATH           = xbmcaddon.Addon().getAddonInfo('path')
+ART            = os.path.join(PATH, 'resources', 'art')
 
-import base64, codecs
-magic = 'aW1wb3J0IHhibWNhZGRvbg0KDQppbXBvcnQgb3MNCg0KIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjDQojICAgICAgICAgR2xvYmFsIFZhcmlhYmxlcyAtIERPTidUIEVESVQhISEgICAgICAgICAgICAgICMNCiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIw0KQURET05fSUQgPSB4Ym1jYWRkb24uQWRkb24oKS5nZXRBZGRvbkluZm8oJ2lkJykNClBBVEggPSB4Ym1jYWRkb24uQWRkb24oKS5nZXRBZGRvbkluZm8oJ3BhdGgnKQ0KQVJUID0gb3MucGF0aC5qb2luKFBBVEgsICdyZXNvdXJjZXMnLCAnbWVkaWEnKQ0KIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjDQoNCiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIw0KIyAgICAgICAgVXNlciBFZGl0IFZhcmlhYmxlcyAgICAgICAgICAgICAgICAgICAgICAgICAgICAjDQojIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMNCkFERE9OVElUTEUgPSAnWmFkYXJXaXphcmQnDQpCVUlMREVSTkFNRSA9ICdaYWRhciBXaXphcmQnDQpFWENMVURFUyA9IFtBRERPTl9JRCwgJ3JlcG9zaXRvcnkuWmFkYXJIUnJlcG8nXQ0KQ0FDSEVURVhUID0gJycNCkNBQ0hFQUdFID0gMzANCldJWkFSREZJTEUgPSAnJw0KQURET05QQUNLID0gJycNClJPTVBBQ0sgPSAnJw0KRU1VQVBLUyA9ICcnDQpNQUlOX0JVVFRPTlNfVEVYVCA9ICdNYWluc0J1dHRvbicNCk9USEVSX0JVVFRPTlNfVEVYVCA9ICdPdGhlckJ1dHRvbicNCkxJU1RfVEVYVCA9ICcnDQpISUdITElHSFRfTElTVCA9ICcnDQpISUdITElHSFRfTElTVDIgPSAnJw0KVkVSVElUTEVfQ09MT1IgPSAnZ3JlZW4nDQpWRVJfTlVNQkVSX0NPTE9SID0gJ2dyZWVuJw0KDQpXSVpUSVRMRV9DT0xPUiA9ICd3aGl0ZScNCldJWlRJVExFID0gJ1phZGFyIFRlYW0gQnVpbGQgSHJ2YXRza2EgV2l6YXJkJw0KDQpFWElUX0JVVFRPTl9DT0xPUiA9ICdyZWQnDQoNCk5PX1RYVF9GSUxFID0gJycNCg0KDQpGT0NVU19CVVRUT05fQ09MT1IgPSAncmVkJw0KREVTQ09MT1IgPSAnd2hpdGUnDQpERVNfVF9DT0xPUiA9ICdyZWQnDQoNCiMgVGV4dCBGaWxlIHdpdGggYnVpbGQgaW5mbyBpbiBpdC4NCkJVSUxERklMRSA9ICdodHRwOi8vemFkYXJidWlsZC5jb20uaHIvQnVpbGR6aXBaRC9LT0RJLTE5L2J1aWxkcy50eHQnDQojIEhvdyBvZnRlbiB5b3Ugd291bGQgbGlrZSBpdCB0byBjaGVjayBmb3IgYnVpbGQgdXBkYXRlcyBpbiBkYXlzDQojIDAgYmVpbmcgZXZlcnkgc3RhcnR1cCBvZiBrb2RpDQpVUERBVEVDSEVDSyA9IDANCiMgVGV4dCBGaWxlIHdpdGggYXBrIGluZm8gaW4gaXQuICBMZWF2ZSBhcyAnaHR0cDovLycgdG8gaWdub3JlDQpBUEtGSUxFID0gJ2h0dHA6Ly8nDQojIFRleHQgRmlsZSB3aXRoIFlvdXR1YmUgVmlkZW9zIHVybHMuICBMZWF2ZSBhcyAnaHR0cDovLycgdG8gaWdub3JlDQpZT1VUVUJFVElUTEUgPSAnWW91dHViZSBoZWxwJw0KWU9VVFVCRUZJTEUgPSAnaHR0cDovLycNCi'
-love = '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'
-god = 'b20gdGhlIG1lbnUgaXRlbQ0KQ09MT1IxID0gJ2RhcmtjeWFuJw0KQ09MT1IyID0gJ3doaXRlJw0KQ09MT1IzID0gJ3JlZCcNCkNPTE9SNCA9ICd5ZWxsb3cnDQojIFByaW1hcnkgbWVudSBpdGVtcyAgIC8gezB9IGlzIHRoZSBtZW51IGl0ZW0gYW5kIGlzIHJlcXVpcmVkDQpUSEVNRTEgPSB1J1tDT0xPUiB7Y29sb3IxfV1bSV0oW0NPTE9SIHtjb2xvcjF9XVtCXVphZGFyWy9CXVsvQ09MT1JdW0NPTE9SIHtjb2xvcjJ9XVRlYW0gV2l6YXJkW0NPTE9SIHtjb2xvcjF9XSlbL0ldWy9DT0xPUl0gW0NPTE9SIHtjb2xvcjJ9XXt7fX1bL0NPTE9SXScuZm9ybWF0KGNvbG9yMT1DT0xPUjEsIGNvbG9yMj1DT0xPUjIpDQojIEJ1aWxkIE5hbWVzICAgICAgICAgIC8gezB9IGlzIHRoZSBtZW51IGl0ZW0gYW5kIGlzIHJlcXVpcmVkDQpUSEVNRTIgPSB1J1tDT0xPUiB7Y29sb3IxfV17e319Wy9DT0xPUl0nLmZvcm1hdChjb2xvcjE9Q09MT1IxKQ0KIyBBbHRlcm5hdGUgaXRlbXMgICAgICAvIHswfSBpcyB0aGUgbWVudSBpdGVtIGFuZCBpcyByZXF1aXJlZA0KVEhFTUUzID0gdSdbQ09MT1Ige2NvbG9yMX1de3t9fVsvQ09MT1JdJy5mb3JtYXQoY29sb3IxPUNPTE9SMSkNCiMgQ3VycmVudCBCdWlsZCBIZWFkZXIgLyB7MH0gaXMgdGhlIG1lbnUgaXRlbSBhbmQgaXMgcmVxdWlyZWQNClRIRU1FNCA9IHUnW0NPTE9SIHtjb2xvcjF9XUN1cnJlbnQgQnVpbGQ6Wy9DT0xPUl0gW0NPTE9SIHtjb2xvcjJ9XXt7fX1bL0NPTE9SXScuZm9ybWF0KGNvbG9yMT1DT0xPUjEsIGNvbG9yMj1DT0xPUjIpDQojIEN1cnJlbnQgVGhlbWUgSGVhZGVyIC8gezB9IGlzIHRoZSBtZW51IGl0ZW0gYW5kIGlzIHJlcXVpcmVkDQpUSEVNRTUgPSB1J1tDT0xPUiB7Y29sb3IxfV1DdXJyZW50IFRoZW1lOlsvQ09MT1JdIFtDT0xPUiB7Y29sb3IyfV17e319Wy9DT0xPUl0nLmZvcm1hdChjb2xvcjE9Q09MT1IxLCBjb2xvcjI9Q09MT1IyKQ0KVEhFTUU2ID0gdSdbQ09MT1Ige2NvbG9yMX1dQ3VycmVudCBUaGVtZTpbL0NPTE9SXSBbQ09MT1Ige2NvbG9yMn1de3t9fVsvQ09MT1JdJy5mb3JtYXQoY29sb3IxPUNPTE9SMSwgY29sb3IyPUNPTE9SMikNCiMgTWVzc2FnZSBmb3IgQ29udGFjdCBQYWdlDQojIEVuYWJsZSAnQ29udGFjdCcgbWVudSBpdGVtICdZZXMnIGhpZGUgb3IgJ05vJyBkb250IGhpZGUNCkhJREVDT05UQUNUID0gJ05vJw0KIyBZb3UgY2FuIGFkZCBcbiB0byBkbyBsaW5lIGJyZWFrcw0KQ09OVEFDVCA9ICdUaGFuayB5b3UgZm9yIGNob29zaW5nIFRoZSBaYWRhciBXaXphcmQuJw0KIyBJbWFnZXMgdXNlZCBmb3IgdGhlIGNvbnRhY3Qgd2luZG93LiAgaHR0cDovLyBmb3IgZGVmYXVsdCBpY29uIGFuZCBmYW5hcnQNCkNPTlRBQ1RJQ09OID0gb3MucGF0aC5qb2luKEFSVCwgJ3FyaWNvbi5wbmcnKQ0KQ09OVEFDVEZBTkFSVCA9ICdodHRwOi8vJw0KIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjDQoNCiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIw0KIyAgICAgICAgQXV0byBVcGRhdGUgRm9yIFRob3NlIFdpdGggTm8gUmVwbyAgICAgICAgICAgICAjDQ'
-destiny = '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'
-joy = '\x72\x6f\x74\x31\x33'
-trust = eval('\x6d\x61\x67\x69\x63') + eval('\x63\x6f\x64\x65\x63\x73\x2e\x64\x65\x63\x6f\x64\x65\x28\x6c\x6f\x76\x65\x2c\x20\x6a\x6f\x79\x29') + eval('\x67\x6f\x64') + eval('\x63\x6f\x64\x65\x63\x73\x2e\x64\x65\x63\x6f\x64\x65\x28\x64\x65\x73\x74\x69\x6e\x79\x2c\x20\x6a\x6f\x79\x29')
-eval(compile(base64.b64decode(eval('\x74\x72\x75\x73\x74')),'<string>','exec'))
+#########################################################
+### THEMING MENU ITEMS ##################################
+#########################################################
+
+##Alway test to see the color combo!!
+
+#### NEW GUI THEME ###################################
+# Choose from the following 
+# Only these colors avalable
+# white , blue , orange , yellow , red , purple , pink , lime , cyan, green
+#Button focus color
+FOCUS_BUTTON_COLOR = 'white'
+EXIT_BUTTON_COLOR = 'red'
+#Highlight outline for lists
+HIGHLIGHT_LIST = 'button_focus'
+##No TXT file Banner
+NO_TXT_FILE = 'pink'
+
+############################################
+############################################
+### The full list of colors for below can found @ https://forum.kodi.tv/showthread.php?tid=210837
+
+#Top Main buttons
+MAIN_BUTTONS_TEXT = 'oldlace'
+#All other buttons
+OTHER_BUTTONS_TEXT = 'oldlace'
+#all list text color
+##FYI any color placed in the txt file will overide this
+LIST_TEXT = 'white'
+
+
+#Description text title color
+DES_T_COLOR = 'ghostwhite'
+#Description color
+DESCOLOR = 'oldlace'
+
+#Wizard title name and version color
+WIZTITLE = 'ZTBH Wizard'
+WIZTITLE_COLOR = 'ghostwhite'
+VERTITLE_COLOR = 'ghostwhite'
+VER_NUMBER_COLOR = 'white'
+############################################################
+
+## The colors and theme below is still used for the pop up dialogs
+##Alway test to see the color combo
+# You can edit these however you want, just make sure that you have a %s in each of the
+# THEME's so it grabs the text from the menu item
+COLOR1         = 'blue'
+COLOR2         = 'yellow'
+COLOR3         = 'red'
+COLOR4         = 'snow'
+COLOR5         = 'lime'
+# Primary menu items   / %s is the menu item and is required
+THEME1         = '[COLOR '+COLOR4+']%s[/COLOR]'
+# Build Names          / %s is the menu item and is required
+THEME2         = '[COLOR '+COLOR4+']%s[/COLOR]'
+# Alternate items      / %s is the menu item and is required
+THEME3         = '[COLOR '+COLOR3+']%s[/COLOR]'
+# Current Build Header / %s is the menu item and is required
+THEME4         = '[COLOR '+COLOR3+']Current Build:[/COLOR] [COLOR '+COLOR3+']%s[/COLOR]'
+# Current Theme Header / %s is the menu item and is required
+THEME5         = '[COLOR '+COLOR3+']Current Theme:[/COLOR] [COLOR '+COLOR3+']%s[/COLOR]'
+THEME6         = '[COLOR '+COLOR3+'][B]%s[/B][/COLOR]'
+
+
+
+#########################################################
+# If you want to use locally stored icons the place them in the Resources/Art/
+# folder of the wizard then use os.path.join(ART, 'imagename.png')
+# do not place quotes around os.path.join
+# Example:  ICONMAINT     = os.path.join(ART, 'mainticon.png')
+#           ICONSETTINGS  = 'http://aftermathwizard.net/repo/wizard/settings.png'
+# Leave as http:// for default icon
+ICONBUILDS     = 'http://i.imgur.com/E7oBc7x.png'
+ICONMAINT      = 'http://i.imgur.com/E7oBc7x.png'
+ICONAPK        = 'http://i.imgur.com/E7oBc7x.png'
+ICONADDONS     = 'http://i.imgur.com/E7oBc7x.png'
+ICONYOUTUBE    = 'http://i.imgur.com/E7oBc7x.png'
+ICONSAVE       = 'http://i.imgur.com/E7oBc7x.png'
+ICONTRAKT      = 'http://i.imgur.com/E7oBc7x.png'
+ICONREAL       = 'http://i.imgur.com/E7oBc7x.png'
+ICONLOGIN      = 'http://i.imgur.com/E7oBc7x.png'
+ICONCONTACT    = 'http://i.imgur.com/E7oBc7x.png'
+ICONSETTINGS   = 'http://i.imgur.com/E7oBc7x.png'
+# Hide the ====== seperators 'Yes' or 'No'
+HIDESPACERS    = 'No'
+# Character used in seperator
+SPACER         = '~'
+
+# Message for Contact Page
+# Enable 'Contact' menu item 'Yes' hide or 'No' dont hide
+HIDECONTACT    = 'No'
+# You can add \n to do line breaks
+CONTACT        = ''
+#Images used for the contact window.  http:// for default icon and fanart
+CONTACTICON    = os.path.join(ART, 'icon.png')
+CONTACTFANART  = 'http://'
+#########################################################
+
+#########################################################
+### AUTO UPDATE #########################################
+########## FOR THOSE WITH NO REPO #######################
+# Enable Auto Update 'Yes' or 'No'
+AUTOUPDATE     = 'No'
+# Url to wizard version
+WIZARDFILE     = 'http://'
+#########################################################
+
+#########################################################
+### AUTO INSTALL ########################################
+########## REPO IF NOT INSTALLED ########################
+# Enable Auto Install 'Yes' or 'No'
+AUTOINSTALL    = 'No'
+# Addon ID for the repository
+REPOID         = ''
+# Url to Addons.xml file in your repo folder(this is so we can get the latest version)
+REPOADDONXML   = 'http://'
+# Url to folder zip is located in
+REPOZIPURL     =  'http://'
+#########################################################
+
+#########################################################
+### NOTIFICATION WINDOW##################################
+#########################################################
+# Enable Notification screen Yes or No
+ENABLE         = 'No'
+# Url to notification file
+NOTIFICATION   = 'http://funstersplace.net/text/notifyboys.txt'
+# Use either 'Text' or 'Image'
+HEADERTYPE     = 'Text'
+# Font size of header
+FONTHEADER     = 'Font13'
+HEADERMESSAGE  = 'The Boys Wizard'
+# url to image if using Image 424x180
+HEADERIMAGE    = ''
+# Font for Notification Window
+FONTSETTINGS   = 'Font12'
+# Background for Notification Window
+BACKGROUND     = 'https://funstersplace.net/images/fanartboys.jpg'
+BACKGROUND2     = os.path.join(ART, 'ContentPanel.png')
+BACKGROUND3     = os.path.join(ART, 'ContentPanel.png')
+############################    #############################
