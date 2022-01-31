@@ -11,7 +11,7 @@ ADDONTITLE     = 'ZTBH Wizard'
 BUILDERNAME    = 'ZTBH'
 #########################Make sure to change the repo to yours!!!!
 EXCLUDES       = [ADDON_ID, 'roms', 'My_Builds', 'backupdir', 'script.module.kodi-six', 'script.module.six']
-BUILDFILE      = 'https://smartakus.hr/builds/builds.txt'
+BUILDFILE      = 'https://zadarbuild.com.hr/BuildzipZD/KODI-19/builds.txt'
 UPDATECHECK    = 0
 APKFILE        = 'http://'
 YOUTUBETITLE   = 'FTG Help Videos' 
